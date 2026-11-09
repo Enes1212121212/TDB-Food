@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sortiment – TDB Food | Meat &amp; More</title>
+<meta name="description" content="Hähnchen, Rind &amp; Jungbulle, Kalb, Lamm, Pute und Eier für Gastronomie und Handel im Rheinland. Alles halal geschlachtet.">
+<link rel="canonical" href="https://tdb-food.de/sortiment.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sortiment – TDB Food | Meat &amp; More">
+<meta property="og:description" content="Hähnchen, Rind &amp; Jungbulle, Kalb, Lamm, Pute und Eier für Gastronomie und Handel im Rheinland. Alles halal geschlachtet.">
+<meta property="og:url" content="https://tdb-food.de/sortiment.html">
+<meta property="og:image" content="https://tdb-food.de/assets/kuehlfahrzeug.jpg">
+<meta name="theme-color" content="#07090C">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo.svg">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+body{margin:0;background:#07090C}
+a{color:#8CCBF0}a:hover{color:#BFE3F8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@keyframes word{0%{opacity:0;transform:translateY(70%) rotateX(-80deg)}100%{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(70px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fabIn{from{opacity:0;transform:translateY(40px) scale(.6)}to{opacity:1;transform:none}}
+@keyframes fabPing{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+@keyframes menuIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+@keyframes imgIn{from{clip-path:inset(0 0 100% 0);transform:scale(1.15)}to{clip-path:inset(0 0 0 0);transform:none}}
+.word{display:inline-block;transform-origin:50% 100%;animation:word 1s cubic-bezier(.16,1,.3,1) both}
+.fadeUp{animation:fadeUp 1s cubic-bezier(.16,1,.3,1) both}
+@supports (animation-timeline: view()){
+  .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+  .imgIn{animation:imgIn linear both;animation-timeline:view();animation-range:entry 0% cover 40%}
+  .progress{animation:grow linear both;animation-timeline:scroll(root)}
+}
+@supports not (animation-timeline: view()){ .progress{display:none} }
+.fab{animation:fabIn .8s cubic-bezier(.16,1,.3,1) .8s both;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.fab:hover{transform:scale(1.08)}
+.fabPing{animation:fabPing 2.4s ease-out 1.6s infinite}
+.menuIn{animation:menuIn .35s cubic-bezier(.16,1,.3,1) both}
+.cta{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}
+.cta:hover{transform:scale(1.05);box-shadow:0 0 50px rgba(140,203,240,.5)}
+.navlink{color:#A7AFB8;text-decoration:none;transition:color .2s}
+.navlink:hover{color:#EEF2F5}
+.moreLink{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid rgba(140,203,240,.45);color:#8CCBF0;font-size:16px;font-weight:700;text-decoration:none;transition:background .3s,color .3s,gap .3s}
+.moreLink:hover{background:#8CCBF0;color:#07090C;gap:16px}
+.jump{transition:background .25s,color .25s,transform .25s}
+.jump:hover{background:#8CCBF0;color:#07090C;transform:translateY(-2px)}
+.ph{background-color:#0F141A;background-image:repeating-linear-gradient(135deg,rgba(140,203,240,.05) 0 2px,transparent 2px 18px)}
+.navDesk{display:flex}
+.navMob{display:none}
+@media (max-width: 1080px){ .navDesk{display:none} .navMob{display:flex} }
+@media (max-width: 480px){ .hideSm{display:none} }
+@media (prefers-reduced-motion: reduce){ *,*::before,*::after{animation:none !important;transition:none !important} }
+</style>
+<noscript><style>#root{display:none}</style></noscript>
+</head>
+<body>
+<noscript><p style="font-family:system-ui;padding:24px;color:#EEF2F5;background:#07090C">Bitte JavaScript aktivieren. Kontakt: +49 176 24115839 · info@tdb-food.de · Marconistraße 34, 50769 Köln</p></noscript>
+<template id="dc-tpl">
+
+<div lang="{{lang}}" style="min-height: 100vh; background: #07090C; color: #EEF2F5; font-family: 'Inter Tight', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip">
+
+  <div class="progress" aria-hidden="true" style="position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 61; transform-origin: left; background: #8CCBF0; box-shadow: 0 0 14px #8CCBF0"></div>
+
+  <!-- ===== MENÜLEISTE ===== -->
+  <header style="position: fixed; top: 0; left: 0; right: 0; z-index: 60; backdrop-filter: saturate(180%) blur(18px); -webkit-backdrop-filter: saturate(180%) blur(18px); background: rgba(7,9,12,0.72); border-bottom: 1px solid rgba(255,255,255,0.06)">
+    <nav aria-label="Hauptmenü" style="max-width: 1280px; margin: 0 auto; padding: 0 20px; min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="index.html" aria-label="TDB Food | Meat &amp; More" style="display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0">
+        <img src="assets/logo.svg" alt="" style="width: 44px; height: 44px; border-radius: 50%; display: block">
+        <span style="display: flex; align-items: baseline; gap: 7px; white-space: nowrap"><span style="font-size: 19px; font-weight: 900; letter-spacing: -0.02em; color: #8CCBF0">TDB Food</span><span class="hideSm" style="font-size: 15px; font-weight: 600; color: #8E969F">| Meat &amp; More</span></span>
+      </a>
+      <div class="navDesk" style="gap: 26px; font-size: 14px; font-weight: 500; align-items: center">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="6">
+          <a class="navlink" href="{{n.href}}" aria-current="{{n.cur}}" style="{{n.style}}">{{n.label}}</a>
+        </sc-for>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px">
+        <div style="position: relative">
+          <button type="button" onClick="{{toggleLang}}" aria-expanded="{{langOpenAttr}}" aria-label="{{t.langLabel}}" style="min-height: 44px; padding: 0 12px; display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path></svg>
+            {{langCode}}
+          </button>
+          <sc-if value="{{langOpen}}" hint-placeholder-val="{{false}}">
+            <div class="menuIn" style="position: absolute; right: 0; top: 52px; min-width: 170px; padding: 6px; border-radius: 18px; background: #11161C; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column">
+              <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+                <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.style}}">{{l.label}}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+        <a class="cta navDesk" href="kontakt.html" style="align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 14px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+        <button class="navMob" type="button" onClick="{{toggleMenu}}" aria-expanded="{{menuOpenAttr}}" aria-label="{{t.menu}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; cursor: pointer; align-items: center; justify-content: center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">
+      <div class="menuIn" style="border-top: 1px solid rgba(255,255,255,0.08); padding: 12px 20px 24px; display: flex; flex-direction: column; background: rgba(7,9,12,0.96)">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="6">
+          <a href="{{n.href}}" onClick="{{closeMenu}}" style="{{n.mobStyle}}">{{n.label}}</a>
+        </sc-for>
+        <a class="cta" href="kontakt.html" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 17px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+      </div>
+    </sc-if>
+  </header>
+
+  <!-- ===== SEITENKOPF ===== -->
+  <section style="position: relative; padding: 170px 24px 60px; overflow: hidden">
+    <div aria-hidden="true" style="position: absolute; left: 50%; top: 30%; width: 1100px; height: 1100px; transform: translate(-50%,-50%); border-radius: 50%; background: radial-gradient(circle, rgba(140,203,240,0.12) 0%, rgba(7,9,12,0) 62%)"></div>
+    <div style="position: relative; max-width: 1240px; margin: 0 auto">
+      <nav aria-label="Breadcrumb" class="fadeUp" style="display: flex; gap: 8px; font-size: 14px; color: #8E969F"><a class="navlink" href="index.html">{{t.navStart}}</a><span aria-hidden="true">/</span><span style="color: #EEF2F5">{{t.navSort}}</span></nav>
+      <h1 style="margin: 28px 0 0; font-size: clamp(52px, 9vw, 140px); line-height: 0.98; letter-spacing: -0.055em; font-weight: 900; perspective: 900px; padding-bottom: 0.06em">
+        <span class="word" style="animation-delay: .1s">{{t.hA}}</span><br>
+        <span class="word" style="animation-delay: .25s; color: #8CCBF0">{{t.hB}}</span>
+      </h1>
+      <p class="fadeUp" style="margin: 26px 0 0; max-width: 640px; font-size: clamp(18px, 2vw, 22px); line-height: 1.5; color: #A7AFB8; animation-delay: .45s">{{t.hSub}}</p>
+      <div class="fadeUp" style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 10px; animation-delay: .6s">
+        <sc-for list="{{cats}}" as="c" hint-placeholder-count="6">
+          <a class="jump" href="{{c.anchor}}" style="display: inline-flex; align-items: center; gap: 8px; min-height: 46px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); color: #EEF2F5; font-size: 15px; font-weight: 600; text-decoration: none"><span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; color: #8CCBF0">{{c.num}}</span>{{c.name}}</a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KATEGORIEN ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 120px; display: flex; flex-direction: column; gap: 110px">
+    <sc-for list="{{cats}}" as="c" hint-placeholder-count="6">
+      <article id="{{c.id}}" style="{{c.rowStyle}}">
+        <div class="imgIn" style="flex: 1 1 440px; min-width: 0; border-radius: 32px; overflow: hidden">
+          <sc-if value="{{c.vid}}" hint-placeholder-val="{{false}}">
+            <div style="aspect-ratio: 4 / 3; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.07); border-radius: 32px; background: #07090C">
+              <video class="prodVid" src="{{c.vid}}" poster="{{c.poster}}" muted="true" playsinline="true" webkit-playsinline="true" preload="metadata" aria-label="{{c.name}}" style="{{c.vidStyle}}"></video>
+            </div>
+          </sc-if>
+          <sc-if value="{{c.noVid}}" hint-placeholder-val="{{true}}">
+          <div class="ph" role="img" aria-label="{{c.photo}}" style="aspect-ratio: 4 / 3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; border: 1px solid rgba(255,255,255,0.07); border-radius: 32px">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.4" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2.5l1.5-2h6l1.5 2H19a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A7AFB8">{{c.photo}}</span>
+          </div>
+          </sc-if>
+        </div>
+        <div class="reveal" style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+          <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 14px; color: #8CCBF0">{{c.num}} / 06</span>
+          <h2 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.04em">{{c.name}}</h2>
+          <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #A7AFB8">{{c.text}}</p>
+          <div>
+            <p style="margin: 0 0 12px; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5">{{t.cutsLabel}}</p>
+            <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px">
+              <sc-for list="{{c.cuts}}" as="cut" hint-placeholder-count="3">
+                <li style="padding: 10px 16px; border-radius: 999px; background: #10151B; border: 1px solid rgba(255,255,255,0.1); font-size: 15px; font-weight: 600">{{cut}}</li>
+              </sc-for>
+            </ul>
+          </div>
+          <sc-if value="{{c.halal}}" hint-placeholder-val="{{true}}">
+            <span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(140,203,240,0.4); color: #8CCBF0; font-size: 14px; font-weight: 600">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>
+              {{t.badge}}
+            </span>
+          </sc-if>
+          <a class="cta" href="kontakt.html" onClick="{{c.ask}}" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 54px; padding: 0 26px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 16px; font-weight: 700; text-decoration: none">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>
+            {{c.askLabel}}
+          </a>
+        </div>
+      </article>
+    </sc-for>
+    <p class="reveal" style="margin: 0; text-align: center; font-size: 18px; color: #A7AFB8">{{t.moreCuts}}</p>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section style="padding: 0 24px 140px">
+    <div class="reveal" style="max-width: 1240px; margin: 0 auto; border-radius: 40px; background: #8CCBF0; color: #07090C; padding: clamp(36px, 6vw, 80px); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between">
+      <h2 style="margin: 0; font-size: clamp(36px, 5vw, 72px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.06em">{{t.ctaA}}<br>{{t.ctaB}}</h2>
+      <a class="cta" href="kontakt.html" style="display: inline-flex; align-items: center; min-height: 58px; padding: 0 32px; border-radius: 999px; background: #07090C; color: #EEF2F5; font-size: 18px; font-weight: 700; text-decoration: none">{{t.ctaBtn}}</a>
+    </div>
+  </section>
+
+  <a class="fab" href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="{{t.fab}}" style="position: fixed; right: 20px; bottom: 20px; z-index: 70; width: 64px; height: 64px; border-radius: 50%; background: #25D366; color: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 40px rgba(0,0,0,0.5)">
+    <span class="fabPing" aria-hidden="true" style="position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25D366"></span>
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg>
+  </a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background: #040507; border-top: 1px solid rgba(255,255,255,0.07); padding: 80px 24px 32px">
+    <div style="max-width: 1240px; margin: 0 auto">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 40px">
+        <div style="display: flex; flex-direction: column; gap: 16px">
+          <a href="index.html" aria-label="TDB Food | Meat &amp; More" style="display: block; width: 96px; height: 96px"><img src="assets/logo.svg" alt="TDB Food | Meat &amp; More" style="width: 96px; height: 96px; border-radius: 50%; display: block"></a>
+          <span style="font-size: 18px; font-weight: 800; letter-spacing: -0.01em"><span style="color: #8CCBF0">TDB Food</span> <span style="color: #8E969F">| Meat &amp; More</span></span>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #A7AFB8">{{t.footTag}}</p>
+          <div style="display: flex; gap: 10px">
+            <a href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener" aria-label="Instagram @tdb_food" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <svg width="34" height="34" viewBox="0 0 56 56" aria-hidden="true"><defs><radialGradient id="igB" cx="0.3" cy="1.07" r="1.2"><stop offset="0" stop-color="#FDF497"></stop><stop offset="0.08" stop-color="#FDF497"></stop><stop offset="0.45" stop-color="#FD5949"></stop><stop offset="0.6" stop-color="#D6249F"></stop><stop offset="0.9" stop-color="#285AEB"></stop></radialGradient></defs><rect width="56" height="56" rx="15" fill="url(#igB)"></rect><rect x="12" y="12" width="32" height="32" rx="9.5" fill="none" stroke="#fff" stroke-width="3.6"></rect><circle cx="28" cy="28" r="7.6" fill="none" stroke="#fff" stroke-width="3.6"></circle><circle cx="37.4" cy="18.6" r="2.3" fill="#fff"></circle></svg>
+            </a>
+            <a href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="WhatsApp" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <span style="width: 34px; height: 34px; border-radius: 9px; background: #25D366; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg></span>
+            </a>
+          </div>
+        </div>
+        <nav aria-label="{{t.colSort}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colSort}}</span>
+          <sc-for list="{{cats}}" as="c" hint-placeholder-count="6"><a class="navlink" href="{{c.footHref}}">{{c.name}}</a></sc-for>
+        </nav>
+        <nav aria-label="{{t.colCo}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colCo}}</span>
+          <a class="navlink" href="ueber-uns.html">{{t.navAbout}}</a>
+          <a class="navlink" href="halal.html">{{t.navHalal}}</a>
+          <a class="navlink" href="liefergebiet.html">{{t.navArea}}</a>
+          <a class="navlink" href="kontakt.html">{{t.navFaq}}</a>
+          <a class="navlink" href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; color: #A7AFB8">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colContact}}</span>
+          <span>TDB GmbH<br>Marconistraße 34<br>50769 Köln</span>
+          <a class="navlink" href="tel:+4917624115839">+49 176 24115839</a>
+          <a class="navlink" href="mailto:info@tdb-food.de">info@tdb-food.de</a>
+          <a class="navlink" href="https://wa.me/4917624115839" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div style="margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; font-size: 14px; color: #8E969F">
+        <span>{{t.rights}}</span>
+        <div style="display: flex; gap: 22px; flex-wrap: wrap; align-items: center">
+          <a class="navlink" href="impressum.html">{{t.impressum}}</a>
+          <a class="navlink" href="datenschutz.html">{{t.datenschutz}}</a>
+          <span aria-hidden="true" style="width: 1px; height: 16px; background: rgba(255,255,255,0.15)"></span>
+          <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+            <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.footStyle}}">{{l.code}}</button>
+          </sc-for>
+          <a href="#" aria-label="{{t.toTop}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; color: #EEF2F5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</template>
+<div id="root"></div>
+<script src="assets/runtime.js"></script>
+<script>
+
+var COMMON = {
+  de: { code: "DE", label: "Deutsch", langLabel: "Sprache wählen", menu: "Menü", toTop: "Nach oben", navStart: "Start", navSort: "Sortiment", navHalal: "Halal", navArea: "Liefergebiet", navAbout: "Über uns", navContact: "Kontakt", navFaq: "FAQ", navCta: "Anfragen", colSort: "Sortiment", colCo: "Unternehmen", colContact: "Kontakt", footTag: "Fleischgroßhandel für Gastronomie und Handel im Rheinland. Alles halal geschlachtet.", rights: "© 2026 TDB GmbH. Alle Rechte vorbehalten.", impressum: "Impressum", datenschutz: "Datenschutz", agb: "AGB", fab: "Per WhatsApp schreiben", ctaA: "Bereit für einen Lieferanten,", ctaB: "der liefert?", ctaBtn: "Jetzt anfragen", cats: ["Hähnchen", "Rind & Jungbulle", "Kalb", "Lamm", "Pute", "Eier"] },
+  en: { code: "EN", label: "English", langLabel: "Choose language", menu: "Menu", toTop: "Back to top", navStart: "Home", navSort: "Products", navHalal: "Halal", navArea: "Delivery area", navAbout: "About us", navContact: "Contact", navFaq: "FAQ", navCta: "Enquire", colSort: "Products", colCo: "Company", colContact: "Contact", footTag: "Meat wholesale for restaurants and retailers in the Rhineland. All halal slaughtered.", rights: "© 2026 TDB GmbH. All rights reserved.", impressum: "Legal notice", datenschutz: "Privacy policy", agb: "Terms", fab: "Message us on WhatsApp", ctaA: "Ready for a supplier", ctaB: "who delivers?", ctaBtn: "Enquire now", cats: ["Chicken", "Beef & young bull", "Veal", "Lamb", "Turkey", "Eggs"] },
+  ku: { code: "KU", label: "Kurdî", langLabel: "Ziman hilbijêre", menu: "Menû", toTop: "Vegere jor", navStart: "Destpêk", navSort: "Berhem", navHalal: "Helal", navArea: "Herêma radestkirinê", navAbout: "Derbarê me", navContact: "Têkilî", navFaq: "Pirs", navCta: "Bipirse", colSort: "Berhem", colCo: "Şirket", colContact: "Têkilî", footTag: "Toptanfiroşiya goşt ji bo xwaringeh û bazirganiyê li herêma Rheinê. Hemû helal serjêkirî.", rights: "© 2026 TDB GmbH. Hemû maf parastî ne.", impressum: "Impressum", datenschutz: "Parastina daneyan", agb: "Merc", fab: "Bi WhatsAppê binivîse", ctaA: "Ji bo dabînkerekî", ctaB: "ku radest dike amade yî?", ctaBtn: "Niha bipirse", cats: ["Mirîşk", "Dewar & gayê ciwan", "Golik", "Berx", "Elok", "Hêk"] },
+  tr: { code: "TR", label: "Türkçe", langLabel: "Dil seç", menu: "Menü", toTop: "Yukarı çık", navStart: "Ana sayfa", navSort: "Ürünler", navHalal: "Helal", navArea: "Teslimat bölgesi", navAbout: "Hakkımızda", navContact: "İletişim", navFaq: "SSS", navCta: "Teklif al", colSort: "Ürünler", colCo: "Şirket", colContact: "İletişim", footTag: "Ren bölgesinde gastronomi ve ticaret için et toptancısı. Tamamı helal kesim.", rights: "© 2026 TDB GmbH. Tüm hakları saklıdır.", impressum: "Künye", datenschutz: "Gizlilik politikası", agb: "Genel şartlar", fab: "WhatsApp ile yaz", ctaA: "Teslim eden bir", ctaB: "tedarikçiye hazır mısın?", ctaBtn: "Şimdi teklif al", cats: ["Tavuk", "Sığır & genç boğa", "Dana", "Kuzu", "Hindi", "Yumurta"] }
+};
+var PAGE = {
+  de: {
+    hA: "Alles aus", hB: "einer Hand.",
+    hSub: "Sechs Kategorien für Restaurant, Imbiss, Café und Theke. Jedes Stück Fleisch halal geschlachtet.",
+    photo: "Foto folgt", badge: "Halal geschlachtet", cutsLabel: "Typische Stücke", ask: "{x} anfragen", moreCuts: "Weitere Stücke und Mengen auf Anfrage – schreib uns einfach.",
+    texts: ["Ganzes Hähnchen, Brust, Schenkel, Flügel – so portioniert, wie deine Küche arbeitet. Der Klassiker, der nie ausgehen darf.", "Vom Hackfleisch für den Imbiss bis zu Steaks und Braten für dein Restaurant.", "Zart, hell, sauber pariert. Für Schnitzel, Ragout und Geschnetzeltes.", "Keule, Schulter, Kotelett – für Grill, Ofen und Schmorgerichte.", "Mager, vielseitig, verlässlich. Von Brustfilet bis Oberkeule.", "Frische Eier für Küche, Frühstück und Backstube – einfach mit auf deine Bestellung."],
+    cuts: [["Ganzes Hähnchen", "Brust", "Schenkel", "Flügel"], ["Hackfleisch", "Steaks", "Braten"], ["Schnitzel", "Ragout", "Geschnetzeltes"], ["Keule", "Schulter", "Kotelett"], ["Brustfilet", "Oberkeule"], ["Frische Eier"]]
+  },
+  en: {
+    hA: "Everything from", hB: "one source.",
+    hSub: "Six categories for restaurants, takeaways, cafés and counters. Every piece of meat halal slaughtered.",
+    photo: "Photo coming soon", badge: "Halal slaughtered", cutsLabel: "Typical cuts", ask: "Enquire about {x}", moreCuts: "More cuts and quantities on request – just message us.",
+    texts: ["Whole chicken, breast, thighs, wings – portioned the way your kitchen works. The classic that must never run out.", "From mince for takeaways to steaks and roasts for your restaurant.", "Tender, pale, neatly trimmed. For schnitzel, ragout and sliced veal.", "Leg, shoulder, chops – for the grill, the oven and slow-cooked dishes.", "Lean, versatile, reliable. From breast fillet to thigh.", "Fresh eggs for kitchen, breakfast and bakery – simply add them to your order."],
+    cuts: [["Whole chicken", "Breast", "Thighs", "Wings"], ["Mince", "Steaks", "Roasts"], ["Schnitzel", "Ragout", "Sliced veal"], ["Leg", "Shoulder", "Chops"], ["Breast fillet", "Thigh"], ["Fresh eggs"]]
+  },
+  ku: {
+    hA: "Hemû ji", hB: "destekî.",
+    hSub: "Şeş kategorî ji bo xwaringeh, firoşgeha xwarinê, kafe û refê. Her perçeyek goşt helal serjêkirî.",
+    photo: "Wêne nêzîk e", badge: "Helal serjêkirî", cutsLabel: "Perçeyên asayî", ask: "Ji bo {x} bipirse", moreCuts: "Perçe û mîqdarên din li ser daxwazê – tenê ji me re binivîse.",
+    texts: ["Mirîşka tevahî, sîng, ran, bask – wekî ku metbexa te dixebite hatine parvekirin.", "Ji goştê hêrkirî ji bo firoşgeha xwarinê heta steyk û biraştin ji bo xwaringeha te.", "Nerm, ronî, bi baldarî paqijkirî. Ji bo şnîtzel, ragû û goştê hûrkirî.", "Ran, mil, pirzol – ji bo mangal, firin û xwarinên hêdî-pijandî.", "Kêm-rûn, pirreng, pêbawer. Ji fîleya sîngê heta ranê.", "Hêkên teze ji bo metbex, taştê û nanpêjxaneyê – tenê li sîparîşa xwe zêde bike."],
+    cuts: [["Mirîşka tevahî", "Sîng", "Ran", "Bask"], ["Goştê hêrkirî", "Steyk", "Biraştin"], ["Şnîtzel", "Ragû", "Goştê hûrkirî"], ["Ran", "Mil", "Pirzol"], ["Fîleya sîngê", "Ran"], ["Hêkên teze"]]
+  },
+  tr: {
+    hA: "Hepsi", hB: "tek elden.",
+    hSub: "Restoran, büfe, kafe ve reyon için altı kategori. Her et helal kesim.",
+    photo: "Fotoğraf yakında", badge: "Helal kesim", cutsLabel: "Tipik parçalar", ask: "{x} için teklif al", moreCuts: "Diğer parçalar ve miktarlar talep üzerine – bize yazman yeterli.",
+    texts: ["Bütün tavuk, göğüs, but, kanat – mutfağının çalıştığı şekilde porsiyonlanmış. Asla eksik olmaması gereken klasik.", "Büfe için kıymadan restoranın için biftek ve rostoya kadar.", "Yumuşak, açık renkli, özenle temizlenmiş. Şinitzel, yahni ve sote için.", "But, kol, pirzola – ızgara, fırın ve güveç yemekleri için.", "Yağsız, çok yönlü, güvenilir. Göğüs filetosundan but etine kadar.", "Mutfak, kahvaltı ve fırın için taze yumurta – siparişine eklemen yeterli."],
+    cuts: [["Bütün tavuk", "Göğüs", "But", "Kanat"], ["Kıyma", "Biftek", "Rosto"], ["Şinitzel", "Yahni", "Sote"], ["But", "Kol", "Pirzola"], ["Göğüs filetosu", "But"], ["Taze yumurta"]]
+  }
+};
+var PAGE_ID = "sort";
+
+var PROD_MEDIA = [
+  { v: "assets/produkt-haehnchen.mp4", p: "assets/produkt-haehnchen.jpg" },  // Hähnchen
+  { v: "assets/produkt-rind.mp4", p: "assets/produkt-rind.jpg" },  // Rind & Jungbulle
+  { v: "assets/produkt-kalb.mp4", p: "assets/produkt-kalb.jpg" },  // Kalb
+  { v: "assets/produkt-lamm.mp4", p: "assets/produkt-lamm.jpg", pos: "68% 75%" },  // Lamm
+  { v: "assets/produkt-pute.mp4", p: "assets/produkt-pute.jpg", pos: "45% 60%" },  // Pute
+  { v: "assets/produkt-eier.mp4", p: "assets/produkt-eier.jpg", pos: "70% 60%" }   // Eier
+];
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    var saved = null;
+    try { saved = window.localStorage.getItem("tdb-lang"); } catch (e) {}
+    this.state = { lang: (saved && COMMON[saved]) ? saved : "de", langOpen: false, menuOpen: false };
+  }
+  componentDidMount() {
+    // Produkt-Videos: laufen einmal ab, sobald sie ins Bild scrollen, und bleiben auf dem letzten Bild stehen
+    this.prodTimer = setInterval(function () {
+      var vids = document.querySelectorAll("video.prodVid"), vh = window.innerHeight || 800;
+      for (var k = 0; k < vids.length; k++) {
+        var v = vids[k], r = v.getBoundingClientRect();
+        if (!v._done && r.height > 0 && r.top < vh * 0.75 && r.bottom > vh * 0.2) {
+          v._done = true; v.muted = true;
+          try { var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+        }
+      }
+    }, 250);
+  }
+  componentWillUnmount() { clearInterval(this.prodTimer); }
+  shell() {
+    var self = this;
+    var lang = this.state.lang;
+    var t = Object.assign({}, COMMON[lang], PAGE[lang]);
+    var items = [["index.html", t.navStart, "start"], ["sortiment.html", t.navSort, "sort"], ["halal.html", t.navHalal, "halal"], ["ueber-uns.html", t.navAbout, "about"], ["liefergebiet.html", t.navArea, "area"], ["kontakt.html", t.navContact, "contact"]];
+    var navItems = items.map(function (it) {
+      var on = it[2] === PAGE_ID;
+      return {
+        href: it[0], label: it[1], cur: on ? "page" : "false",
+        style: on ? "color: #8CCBF0; font-weight: 700" : "",
+        mobStyle: "min-height: 52px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); text-decoration: none; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: " + (on ? "#8CCBF0" : "#EEF2F5")
+      };
+    });
+    var langs = ["de", "en", "ku", "tr"].map(function (c) {
+      var on = c === lang;
+      return {
+        code: COMMON[c].code, label: COMMON[c].label, current: on ? "true" : "false",
+        pick: function () { try { window.localStorage.setItem("tdb-lang", c); } catch (e) {} self.setState({ lang: c, langOpen: false, menuOpen: false }); },
+        style: "min-height: 44px; padding: 0 14px; border: 0; border-radius: 12px; text-align: left; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; background: " + (on ? "rgba(140,203,240,0.16)" : "transparent") + "; color: " + (on ? "#8CCBF0" : "#EEF2F5"),
+        footStyle: "min-width: 44px; min-height: 44px; border: 0; background: transparent; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; color: " + (on ? "#8CCBF0" : "#8E969F")
+      };
+    });
+    return {
+      t: t, lang: lang, langCode: t.code, navItems: navItems, langs: langs,
+      langOpen: this.state.langOpen, langOpenAttr: this.state.langOpen ? "true" : "false",
+      menuOpen: this.state.menuOpen, menuOpenAttr: this.state.menuOpen ? "true" : "false",
+      toggleLang: function () { self.setState({ langOpen: !self.state.langOpen }); },
+      toggleMenu: function () { self.setState({ menuOpen: !self.state.menuOpen, langOpen: false }); },
+      closeMenu: function () { self.setState({ menuOpen: false }); }
+    };
+  }
+  renderVals() {
+    var v = this.shell();
+    var t = v.t;
+    v.cats = t.cats.map(function (name, i) {
+      return {
+        name: name, num: "0" + (i + 1), id: "kat-" + (i + 1), anchor: "#kat-" + (i + 1), footHref: "#kat-" + (i + 1),
+        text: t.texts[i], cuts: t.cuts[i], halal: i < 5, photo: t.photo + " · " + name,
+        vid: PROD_MEDIA[i] ? PROD_MEDIA[i].v : "", vidStyle: "position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: " + (PROD_MEDIA[i] && PROD_MEDIA[i].pos ? PROD_MEDIA[i].pos : "50% 70%"), poster: PROD_MEDIA[i] ? PROD_MEDIA[i].p : "", noVid: !PROD_MEDIA[i],
+        askLabel: t.ask.replace("{x}", name),
+        ask: function () { try { window.localStorage.setItem("tdb-pick", String(i)); } catch (e) {} },
+        rowStyle: "display: flex; flex-wrap: wrap; gap: 56px; align-items: center; flex-direction: " + (i % 2 ? "row-reverse" : "row") + "; scroll-margin-top: 100px"
+      };
+    });
+    return v;
+  }
+}
+
+DC.mount(Component);
+</script>
+<script src="assets/hinweis.js" defer></script>
+</body>
+</html>

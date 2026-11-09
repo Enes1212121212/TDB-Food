@@ -1,0 +1,1347 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TDB Food | Meat &amp; More – Fleischgroßhandel in Köln, halal geschlachtet</title>
+<meta name="description" content="Fleischgroßhandel aus Köln für Restaurants, Imbisse, Cafés und Supermärkte. Hähnchen, Rind, Kalb, Lamm, Pute und Eier – alles halal geschlachtet. Bis 18 Uhr bestellt, morgen geliefert.">
+<link rel="canonical" href="https://tdb-food.de/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TDB Food | Meat &amp; More – Fleischgroßhandel in Köln, halal geschlachtet">
+<meta property="og:description" content="Fleischgroßhandel aus Köln für Restaurants, Imbisse, Cafés und Supermärkte. Hähnchen, Rind, Kalb, Lamm, Pute und Eier – alles halal geschlachtet. Bis 18 Uhr bestellt, morgen geliefert.">
+<meta property="og:url" content="https://tdb-food.de/">
+<meta property="og:image" content="https://tdb-food.de/assets/kuehlfahrzeug.jpg">
+<meta name="theme-color" content="#07090C">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo.svg">
+<link rel="stylesheet" href="assets/fonts.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Wholesaler", "name": "TDB Food | Meat & More", "legalName": "TDB GmbH", "url": "https://tdb-food.de/", "logo": "https://tdb-food.de/assets/logo.svg", "telephone": "+49 176 24115839", "email": "info@tdb-food.de", "address": {"@type": "PostalAddress", "streetAddress": "Marconistraße 34", "postalCode": "50769", "addressLocality": "Köln", "addressCountry": "DE"}, "areaServed": ["Köln", "Bonn", "Düsseldorf", "Leverkusen", "Bergisch Gladbach", "Frechen", "Hürth", "Wesseling", "Mönchengladbach"], "sameAs": ["https://www.instagram.com/tdb_food"], "knowsLanguage": ["de", "en", "ku", "tr"]}</script>
+<style>
+body{margin:0;background:#07090C}
+a{color:#8CCBF0}a:hover{color:#BFE3F8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+/* ===== LOADER ===== */
+@keyframes lLetter{from{opacity:0;transform:translateY(100%)}to{opacity:1;transform:none}}
+@keyframes lLine{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes lSub{from{opacity:0;letter-spacing:.8em}to{opacity:1;letter-spacing:.35em}}
+@keyframes loaderOut{0%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 100% 0);visibility:hidden}}
+.loader{animation:loaderOut .75s cubic-bezier(.77,0,.18,1) 1.5s forwards}
+.lL{display:inline-block;animation:lLetter .7s cubic-bezier(.16,1,.3,1) both}
+.lLine{transform-origin:left;animation:lLine 1s cubic-bezier(.65,0,.35,1) .35s both}
+.lSub{animation:lSub .8s cubic-bezier(.16,1,.3,1) .6s both}
+@keyframes logoIn{0%{opacity:0;transform:scale(.5) rotate(-12deg)}70%{opacity:1;transform:scale(1.06) rotate(2deg)}100%{opacity:1;transform:none}}
+.logoIn{animation:logoIn .9s cubic-bezier(.2,.9,.3,1.2) both}
+
+/* ===== HERO ===== */
+@keyframes word{0%{opacity:0;transform:translateY(70%) rotateX(-80deg)}100%{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes hint{0%,100%{transform:translateY(0);opacity:.4}50%{transform:translateY(10px);opacity:1}}
+@keyframes heroShrink{from{transform:scale(1);border-radius:0}to{transform:scale(.88);border-radius:44px}}
+@keyframes pulseRing{0%{transform:scale(.8);opacity:.8}100%{transform:scale(1.9);opacity:0}}
+.word{display:inline-block;transform-origin:50% 100%;animation:word 1s cubic-bezier(.16,1,.3,1) both}
+.fadeUp{animation:fadeUp 1s cubic-bezier(.16,1,.3,1) both}
+.hint{animation:hint 1.8s ease-in-out infinite}
+.pulseRing{animation:pulseRing 2.2s ease-out infinite}
+
+/* ===== LOOPS ===== */
+@keyframes ticker{0%,20%{transform:translateY(0)}25%,45%{transform:translateY(-25%)}50%,70%{transform:translateY(-50%)}75%,95%{transform:translateY(-75%)}100%{transform:translateY(0)}}
+@keyframes truck{0%{transform:translateX(-140px)}100%{transform:translateX(calc(100vw + 140px))}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ticker{animation:ticker 8s cubic-bezier(.77,0,.18,1) infinite}
+.truck{animation:truck 9s linear infinite}
+
+/* ===== HALAL-STEMPEL ===== */
+@keyframes stamp{0%{opacity:0;transform:scale(2.8) rotate(-28deg)}55%{opacity:1;transform:scale(.9) rotate(3deg)}72%{transform:scale(1.05) rotate(-8deg)}100%{opacity:1;transform:scale(1) rotate(-6deg)}}
+@keyframes shock{0%{opacity:.9;transform:scale(.6)}100%{opacity:0;transform:scale(2.4)}}
+@keyframes ripple{0%{opacity:.45;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+@keyframes shake{0%,100%{transform:none}20%{transform:translate(-6px,3px)}40%{transform:translate(5px,-4px)}60%{transform:translate(-3px,2px)}80%{transform:translate(2px,-1px)}}
+@keyframes burst{0%{opacity:0;transform:translate(0,0) scale(.4)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1)}}
+@keyframes check{from{stroke-dashoffset:60}to{stroke-dashoffset:0}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.stamp{animation:stamp .9s cubic-bezier(.2,.9,.3,1.2) both}
+.shock{animation:shock 1s cubic-bezier(.16,1,.3,1) both}
+.ripple{animation:ripple 3s ease-out infinite}
+.shake{animation:shake .5s ease-out .5s both}
+.burst{animation:burst 1.1s cubic-bezier(.16,1,.3,1) .5s both}
+.check{stroke-dasharray:60;animation:check .6s cubic-bezier(.65,0,.35,1) 1s both}
+.ringText{animation:fadeIn 1s ease 1.2s both}
+.ringSpin{animation:spin 24s linear infinite}
+
+/* ===== KARTE ===== */
+@keyframes draw{from{stroke-dashoffset:700}to{stroke-dashoffset:0}}
+@keyframes flow{to{stroke-dashoffset:-32}}
+@keyframes cityPing{0%{transform:scale(1);opacity:.8}100%{transform:scale(3.4);opacity:0}}
+@keyframes popIn{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:none}}
+.draw{stroke-dasharray:700;animation:draw 1s cubic-bezier(.65,0,.35,1) both}
+.cityPing{transform-box:fill-box;transform-origin:center;animation:cityPing 2.4s ease-out infinite}
+.popIn{transform-box:fill-box;transform-origin:center;animation:popIn .5s cubic-bezier(.2,.9,.3,1.3) both}
+@keyframes countPop{0%{transform:translateY(30%);opacity:.2}100%{transform:none;opacity:1}}
+
+/* ===== SCROLL-DRIVEN ===== */
+@keyframes rise{from{opacity:0;transform:translateY(70px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes zoomThrough{0%{transform:scale(1);opacity:1}70%{opacity:1}100%{transform:scale(26);opacity:0}}
+@keyframes behindIn{0%,35%{opacity:0;transform:scale(1.3)}100%{opacity:1;transform:none}}
+@keyframes wipe{from{clip-path:inset(-20% 100% -35% -5%)}to{clip-path:inset(-20% -5% -35% -5%)}}
+@keyframes circleOpen{from{clip-path:circle(6% at 50% 50%)}to{clip-path:circle(75% at 50% 50%)}}
+@keyframes flip3d{from{transform:perspective(1200px) rotateX(55deg) translateY(100px);opacity:0}to{transform:none;opacity:1}}
+@keyframes lit{from{color:#262C34}to{color:#EEF2F5}}
+@keyframes litBlue{from{color:#262C34}to{color:#8CCBF0}}
+@keyframes drawLine{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}
+@keyframes stepPop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+@keyframes phoneSpin{from{transform:rotateY(32deg) rotateX(8deg) rotateZ(-8deg)}to{transform:rotateY(-22deg) rotateX(-4deg) rotateZ(5deg)}}
+.line{stroke-dasharray:1000}
+
+@supports (animation-timeline: view()){
+  .progress{animation:grow linear both;animation-timeline:scroll(root)}
+  .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+  .wipe{animation:wipe linear both;animation-timeline:view();animation-range:entry 10% cover 40%}
+  .flip3d{animation:flip3d linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+  .lit{animation:lit linear both;animation-timeline:view();animation-range:cover 20% cover 45%}
+  .litBlue{animation:litBlue linear both;animation-timeline:view();animation-range:cover 20% cover 45%}
+  .zoomSec{view-timeline-name:--zs}
+  .zoomText{animation:zoomThrough linear both;animation-timeline:--zs;animation-range:contain 0% contain 70%}
+  .zoomBehind{animation:behindIn linear both;animation-timeline:--zs;animation-range:contain 10% contain 80%}
+  .line{animation:drawLine linear both;animation-timeline:view();animation-range:entry 20% cover 55%}
+  .stepPop{animation:stepPop linear both;animation-timeline:view();animation-range:entry 10% cover 35%}
+  .phoneSpin{animation:phoneSpin linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+  .circleOpen{animation:circleOpen linear both;animation-timeline:view();animation-range:entry 0% cover 50%}
+}
+@supports not (animation-timeline: view()){
+  .progress{display:none}
+  .heroSec{height:100vh !important}
+  .zoomSec{height:auto !important}
+  .zoomSticky{position:relative !important;height:auto !important;padding:120px 0}
+  .zoomBehind{position:relative !important}
+  .zoomText{display:none}
+  .line{stroke-dashoffset:0}
+  .lit{color:#EEF2F5}.litBlue{color:#8CCBF0}
+}
+
+/* ===== UI ===== */
+@keyframes slideProg{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fabIn{from{opacity:0;transform:translateY(40px) scale(.6)}to{opacity:1;transform:none}}
+@keyframes fabPing{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+@keyframes menuIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+.slideProg{transform-origin:left;animation:slideProg 4.5s linear both}
+.fab{animation:fabIn .8s cubic-bezier(.16,1,.3,1) 3s both;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.fab:hover{transform:scale(1.08)}
+.fabPing{animation:fabPing 2.4s ease-out 3.8s infinite}
+.menuIn{animation:menuIn .35s cubic-bezier(.16,1,.3,1) both}
+.cta{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}
+.cta:hover{transform:scale(1.05);box-shadow:0 0 50px rgba(140,203,240,.5)}
+.navlink{color:#A7AFB8;text-decoration:none;transition:color .2s}
+.navlink:hover{color:#EEF2F5}
+.slideTrack{transition:transform .9s cubic-bezier(.77,0,.18,1)}
+.ctrl{transition:background .25s,transform .25s}
+.ctrl:hover{background:rgba(140,203,240,.18);transform:scale(1.06)}
+.field{transition:border-color .25s,box-shadow .25s}
+.field:focus{outline:none;border-color:#8CCBF0;box-shadow:0 0 0 4px rgba(140,203,240,.18)}
+.chip{transition:background .25s,color .25s,border-color .25s,transform .25s}
+.chip:hover{transform:translateY(-2px)}
+.faqBody{display:grid;transition:grid-template-rows .5s cubic-bezier(.16,1,.3,1),opacity .4s}
+.faqIcon{transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.faqBtn:hover{color:#8CCBF0}
+.card{transition:transform .5s cubic-bezier(.16,1,.3,1),border-color .5s}
+.card:hover{transform:perspective(900px) rotateX(5deg) rotateY(-5deg) translateY(-8px);border-color:rgba(140,203,240,.5)}
+.igBtn{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}
+.igBtn:hover{transform:scale(1.05);box-shadow:0 10px 50px rgba(214,41,118,.45)}
+.moreLink{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid rgba(140,203,240,.45);color:#8CCBF0;font-size:16px;font-weight:700;text-decoration:none;transition:background .3s,color .3s,gap .3s}
+.moreLink:hover{background:#8CCBF0;color:#07090C;gap:16px}
+.ph{background-color:#0F141A;background-image:repeating-linear-gradient(135deg,rgba(140,203,240,.05) 0 2px,transparent 2px 18px)}
+/* Hero: Steak-Video rechts, Text links (Ränder per Verlauf statt Maske – Safari-sicher) */
+.heroVidBox{position:absolute;top:50%;right:0;width:64%;aspect-ratio:16/9;transform:translateY(-44%)}
+.heroVid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:#07090C}
+.heroMovie{opacity:0;transition:opacity .4s ease;background:transparent}
+img.heroMovie:not([src]){display:none}
+.heroMovie.laeuft{opacity:1}
+.heroFade{position:absolute;inset:-1px;pointer-events:none;background:linear-gradient(90deg,#07090C 0%,rgba(7,9,12,0) 22%),linear-gradient(180deg,#07090C 0%,rgba(7,9,12,0) 12%,rgba(7,9,12,0) 86%,#07090C 100%)}
+@media (max-width: 899px){
+  .heroVidBox{top:64px;right:auto;left:0;width:100%;height:32%;aspect-ratio:auto;transform:none}
+  .heroVid{object-position:100% 60%}
+  .heroFade{background:linear-gradient(180deg,rgba(7,9,12,0) 58%,#07090C 100%)}
+}
+@media (max-width: 899px) and (max-height: 760px){ .heroVidBox{height:27%} .heroEyebrow{display:none} }
+.navDesk{display:flex}
+.navMob{display:none}
+@media (max-width: 1080px){ .navDesk{display:none} .navMob{display:flex} }
+@media (max-width: 480px){ .hideSm{display:none} }
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .loader{display:none !important}
+}
+</style>
+<noscript><style>#root{display:none}</style></noscript>
+</head>
+<body>
+<noscript><p style="font-family:system-ui;padding:24px;color:#EEF2F5;background:#07090C">Bitte JavaScript aktivieren. Kontakt: +49 176 24115839 · info@tdb-food.de · Marconistraße 34, 50769 Köln</p></noscript>
+<template id="dc-tpl">
+
+<div lang="{{lang}}" style="min-height: 100vh; background: #07090C; color: #EEF2F5; font-family: 'Inter Tight', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip">
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" aria-hidden="true" style="position: fixed; inset: 0; z-index: 200; background: #050608; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; pointer-events: none">
+    <div style="position: relative; width: 170px; height: 170px">
+      <div class="pulseRing" style="position: absolute; inset: 0; border-radius: 50%; border: 2px solid #8CCBF0; animation-delay: .5s"></div>
+      <img class="logoIn" src="assets/logo.svg" alt="" style="position: relative; display: block; width: 170px; height: 170px; border-radius: 50%; box-shadow: 0 0 80px rgba(140,203,240,0.35)">
+    </div>
+    <div class="lLine" style="width: 200px; height: 2px; margin-top: 18px; background: #8CCBF0"></div>
+  </div>
+
+  <div class="progress" aria-hidden="true" style="position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 61; transform-origin: left; background: #8CCBF0; box-shadow: 0 0 14px #8CCBF0"></div>
+
+  <!-- ===== MENÜLEISTE ===== -->
+  <header style="position: fixed; top: 0; left: 0; right: 0; z-index: 60; backdrop-filter: saturate(180%) blur(18px); -webkit-backdrop-filter: saturate(180%) blur(18px); background: rgba(7,9,12,0.72); border-bottom: 1px solid rgba(255,255,255,0.06)">
+    <nav aria-label="Hauptmenü" style="max-width: 1280px; margin: 0 auto; padding: 0 20px; min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="#top" aria-label="TDB Food | Meat &amp; More" style="display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0">
+        <img src="assets/logo.svg" alt="" style="width: 44px; height: 44px; border-radius: 50%; display: block">
+        <span style="display: flex; align-items: baseline; gap: 7px; white-space: nowrap"><span style="font-size: 19px; font-weight: 900; letter-spacing: -0.02em; color: #8CCBF0">TDB Food</span><span class="hideSm" style="font-size: 15px; font-weight: 600; color: #8E969F">| Meat &amp; More</span></span>
+      </a>
+      <div class="navDesk" style="gap: 26px; font-size: 14px; font-weight: 500; align-items: center">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="7">
+          <a class="navlink" href="{{n.href}}">{{n.label}}</a>
+        </sc-for>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px">
+        <div style="position: relative">
+          <button type="button" onClick="{{toggleLang}}" aria-expanded="{{langOpenAttr}}" aria-label="{{t.langLabel}}" style="min-height: 44px; padding: 0 12px; display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path></svg>
+            {{langCode}}
+          </button>
+          <sc-if value="{{langOpen}}" hint-placeholder-val="{{false}}">
+            <div class="menuIn" style="position: absolute; right: 0; top: 52px; min-width: 170px; padding: 6px; border-radius: 18px; background: #11161C; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column">
+              <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+                <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.style}}">{{l.label}}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+        <a class="cta navDesk" href="kontakt.html" style="align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 14px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+        <button class="navMob" type="button" onClick="{{toggleMenu}}" aria-expanded="{{menuOpenAttr}}" aria-label="{{t.menu}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; cursor: pointer; align-items: center; justify-content: center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">
+      <div class="menuIn" style="border-top: 1px solid rgba(255,255,255,0.08); padding: 12px 20px 24px; display: flex; flex-direction: column; background: rgba(7,9,12,0.96)">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="7">
+          <a href="{{n.href}}" onClick="{{closeMenu}}" style="min-height: 52px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); color: #EEF2F5; text-decoration: none; font-size: 22px; font-weight: 700; letter-spacing: -0.02em">{{n.label}}</a>
+        </sc-for>
+        <a class="cta" href="kontakt.html" onClick="{{closeMenu}}" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 17px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+      </div>
+    </sc-if>
+  </header>
+
+  <!-- ===== HERO (Video-Bühne, schrumpft beim Scrollen) ===== -->
+  <section id="top" class="heroSec" ref="{{heroSecRef}}" style="position: relative; height: 100vh; min-height: 560px">
+    <div style="position: relative; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center">
+      <div class="heroStage" onMouseMove="{{onMove}}" onMouseLeave="{{onLeave}}" style="position: relative; width: 100%; height: 100%; overflow: hidden; background: #07090C">
+        <div ref="{{heroWrapRef}}" style="position: absolute; inset: 0">
+          <div class="heroVidBox">
+            <img class="heroVid heroPoster" src="assets/hero-poster.jpg" alt="{{t.heroVideoAria}}">
+            <video class="heroVid heroMovie" ref="{{heroVidRef}}" src="assets/hero.mp4" poster="assets/hero-poster.jpg" muted="true" playsinline="true" webkit-playsinline="true" preload="auto" aria-hidden="true"></video>
+            <img class="heroVid heroMovie" ref="{{heroAnimRef}}" alt="" aria-hidden="true">
+            <div class="heroFade" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div ref="{{heroDimRef}}" aria-hidden="true" style="position: absolute; inset: 0; background: #07090C; opacity: 0; pointer-events: none"></div>
+        <div aria-hidden="true" style="position: absolute; left: 0; right: 0; top: 0; height: 160px; background: linear-gradient(180deg, rgba(7,9,12,0.7) 0%, rgba(7,9,12,0) 100%)"></div>
+        <div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 70%; background: linear-gradient(180deg, rgba(7,9,12,0) 0%, rgba(7,9,12,0.92) 100%)"></div>
+        <div ref="{{heroTextRef}}" style="position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: 0 24px 72px; will-change: transform, opacity">
+          <div style="max-width: 1240px; margin: 0 auto">
+            <p class="fadeUp heroEyebrow" style="margin: 0 0 18px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase; color: #8CCBF0; animation-delay: 1.7s">{{t.heroEyebrow}}</p>
+            <h1 style="margin: 0; max-width: 8.2em; font-size: clamp(44px, 7vw, 116px); line-height: 0.98; letter-spacing: -0.055em; font-weight: 900; perspective: 900px; padding-bottom: 0.06em">
+              <span class="word" style="animation-delay: 1.8s">{{t.heroA}}</span><br>
+              <span class="word" style="animation-delay: 1.98s; color: #8CCBF0">{{t.heroB}}</span>
+            </h1>
+            <div style="margin-top: 26px; display: flex; gap: 28px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap">
+              <p class="fadeUp" style="margin: 0; max-width: 560px; font-size: clamp(17px, 1.8vw, 21px); line-height: 1.5; color: #C3CAD2; animation-delay: 2.2s">{{t.heroSub}}</p>
+              <div class="fadeUp" style="display: flex; gap: 12px; flex-wrap: wrap; animation-delay: 2.35s">
+                <a class="cta" href="kontakt.html" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 28px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 17px; font-weight: 700; text-decoration: none">{{t.heroCta1}}</a>
+                <a href="sortiment.html" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 24px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.25); color: #EEF2F5; font-size: 17px; font-weight: 500; text-decoration: none">{{t.heroCta2}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hint" aria-hidden="true" style="position: absolute; bottom: 20px; left: 50%; margin-left: -12px">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A7AFB8" stroke-width="1.8"><path d="M6 9l6 6 6-6"></path></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEUCHTENDE WÖRTER (statt Laufband) ===== -->
+  <section aria-label="{{t.sortEyebrow}}" style="max-width: 1240px; margin: 0 auto; padding: 100px 24px 140px">
+    <sc-for list="{{kinetic}}" as="k" hint-placeholder-count="8">
+      <p class="{{k.cls}}" style="margin: 0; font-size: clamp(56px, 10vw, 150px); line-height: 1.04; letter-spacing: -0.055em; font-weight: 900; color: #262C34">{{k.text}}</p>
+    </sc-for>
+  </section>
+
+  <!-- ===== 18:00 ZOOM ===== -->
+  <section class="zoomSec" style="position: relative; height: 240vh">
+    <div class="zoomSticky" style="position: sticky; top: 0; height: 100vh; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #040507">
+      <div class="zoomBehind" style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 24px; gap: 28px; text-align: center">
+        <p style="margin: 0; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.zoomEyebrow}}</p>
+        <h2 style="margin: 0; max-width: 1000px; font-size: clamp(42px, 7vw, 104px); line-height: 0.98; letter-spacing: -0.05em; font-weight: 900">{{t.zoomA}}<br><span style="color: #8CCBF0">{{t.zoomB}}</span></h2>
+        <p style="margin: 0; max-width: 600px; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.zoomP}}</p>
+        <div style="position: relative; width: min(900px, 90vw); height: 60px; margin-top: 20px; border-bottom: 1px dashed rgba(140,203,240,0.3); overflow: hidden">
+          <svg class="truck" width="120" height="56" viewBox="0 0 64 30" fill="none" stroke="#8CCBF0" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" style="position: absolute; left: 0; bottom: 2px"><rect x="2" y="4" width="38" height="18" rx="2"></rect><path d="M40 10h12l8 7v5H40z"></path><circle cx="14" cy="25" r="3.5"></circle><circle cx="50" cy="25" r="3.5"></circle><path d="M10 11l3 3-3 3M20 11l3 3-3 3"></path></svg>
+        </div>
+      </div>
+      <h2 class="zoomText" aria-hidden="true" style="position: relative; margin: 0; font-size: clamp(110px, 22vw, 330px); font-weight: 900; letter-spacing: -0.07em; line-height: 0.85; color: #8CCBF0; pointer-events: none; font-variant-numeric: tabular-nums">18:00</h2>
+    </div>
+  </section>
+
+  <!-- ===== SO LÄUFT'S ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 150px 24px 40px">
+    <p class="reveal" style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.stepsEyebrow}}</p>
+    <h2 class="wipe" style="margin: 0; font-size: clamp(44px, 6.5vw, 96px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.08em">{{t.stepsA}}<br><span style="color: #8E969F">{{t.stepsB}}</span></h2>
+    <div style="position: relative; margin-top: 72px">
+      <svg viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; left: 8%; top: 38px; width: 84%; height: 40px; overflow: visible">
+        <path class="line" d="M0 20 C 160 -10, 340 50, 500 20 S 840 -10, 1000 20" fill="none" stroke="#8CCBF0" stroke-width="2" stroke-dasharray="1000" vector-effect="non-scaling-stroke"></path>
+      </svg>
+      <div style="position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px">
+          <div class="stepPop" style="width: 112px; height: 112px; border-radius: 50%; background: #07090C; border: 2px solid #8CCBF0; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 50px rgba(140,203,240,0.25)">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.6" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 28px; letter-spacing: -0.03em">{{t.s1t}}</h3>
+          <p style="margin: 0; max-width: 300px; color: #A7AFB8; font-size: 17px; line-height: 1.5">{{t.s1p}}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px">
+          <div class="stepPop" style="width: 112px; height: 112px; border-radius: 50%; background: #07090C; border: 2px solid #8CCBF0; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 50px rgba(140,203,240,0.25)">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 28px; letter-spacing: -0.03em">{{t.s2t}}</h3>
+          <p style="margin: 0; max-width: 300px; color: #A7AFB8; font-size: 17px; line-height: 1.5">{{t.s2p}}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px">
+          <div class="stepPop" style="width: 112px; height: 112px; border-radius: 50%; background: #8CCBF0; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 60px rgba(140,203,240,0.45)">
+            <svg width="48" height="48" viewBox="0 0 64 30" fill="none" stroke="#07090C" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="38" height="18" rx="2"></rect><path d="M40 10h12l8 7v5H40z"></path><circle cx="14" cy="25" r="3.5"></circle><circle cx="50" cy="25" r="3.5"></circle></svg>
+          </div>
+          <h3 style="margin: 0; font-size: 28px; letter-spacing: -0.03em">{{t.s3t}}</h3>
+          <p style="margin: 0; max-width: 300px; color: #A7AFB8; font-size: 17px; line-height: 1.5">{{t.s3p}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SORTIMENT ===== -->
+  <section id="sortiment" style="max-width: 1240px; margin: 0 auto; padding: 150px 24px 120px; scroll-margin-top: 40px">
+    <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap">
+      <div class="reveal">
+        <p style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.sortEyebrow}}</p>
+        <h2 style="margin: 0; font-size: clamp(44px, 6.5vw, 96px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.sortA}}<br><span style="color: #8E969F">{{t.sortB}}</span></h2>
+      </div>
+      <div style="display: flex; gap: 10px">
+        <button class="ctrl" type="button" onClick="{{prev}}" aria-label="{{t.prev}}" style="width: 54px; height: 54px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: #EEF2F5; cursor: pointer; display: flex; align-items: center; justify-content: center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
+        </button>
+        <button class="ctrl" type="button" onClick="{{next}}" aria-label="{{t.next}}" style="width: 54px; height: 54px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: #EEF2F5; cursor: pointer; display: flex; align-items: center; justify-content: center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="reveal" onTouchStart="{{touchStart}}" onTouchEnd="{{touchEnd}}" style="margin-top: 56px; overflow: hidden; border-radius: 32px; touch-action: pan-y">
+      <div class="slideTrack" style="{{trackStyle}}">
+        <sc-for list="{{slides}}" as="s" hint-placeholder-count="6">
+          <div style="flex: 0 0 100%; display: flex; flex-wrap: wrap; background: #0D1116; border: 1px solid rgba(255,255,255,0.07); border-radius: 32px; overflow: hidden; min-height: 460px">
+            <sc-if value="{{s.vid}}" hint-placeholder-val="{{false}}">
+              <div class="prodMedia" style="flex: 1 1 420px; min-height: 300px; position: relative; overflow: hidden; background: #07090C">
+                <video class="prodVid" data-i="{{s.i}}" src="{{s.vid}}" poster="{{s.poster}}" muted="true" playsinline="true" webkit-playsinline="true" preload="metadata" aria-label="{{s.photoLabel}}" style="{{s.vidStyle}}"></video>
+              </div>
+            </sc-if>
+            <sc-if value="{{s.noVid}}" hint-placeholder-val="{{true}}">
+            <div class="ph" role="img" aria-label="{{s.photoLabel}}" style="flex: 1 1 420px; min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.4" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2.5l1.5-2h6l1.5 2H19a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+              <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A7AFB8">{{s.photoLabel}}</span>
+            </div>
+            </sc-if>
+            <div style="flex: 1 1 380px; padding: 48px; display: flex; flex-direction: column; justify-content: center; gap: 18px">
+              <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; color: #8CCBF0">{{s.num}} / 06</span>
+              <h3 style="margin: 0; font-size: clamp(40px, 5vw, 72px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{s.name}}</h3>
+              <p style="margin: 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{s.text}}</p>
+              <sc-if value="{{s.halal}}" hint-placeholder-val="{{true}}">
+                <span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(140,203,240,0.4); color: #8CCBF0; font-size: 14px; font-weight: 600">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>
+                  {{t.badge}}
+                </span>
+              </sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="margin-top: 28px; display: flex; justify-content: center; gap: 4px; flex-wrap: wrap">
+      <sc-for list="{{dots}}" as="d" hint-placeholder-count="6">
+        <button type="button" onClick="{{d.go}}" aria-label="{{d.label}}" aria-current="{{d.current}}" style="min-width: 44px; height: 44px; border: 0; background: transparent; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 4px">
+          <span style="{{d.style}}">
+            <sc-if value="{{d.active}}" hint-placeholder-val="{{false}}">
+              <span class="slideProg" style="{{d.progStyle}}"></span>
+            </sc-if>
+          </span>
+        </button>
+      </sc-for>
+    </div>
+    <div style="margin-top: 32px; display: flex; justify-content: center">
+      <a class="moreLink" href="sortiment.html">{{t.moreSort}} <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+  </section>
+
+  <!-- ===== HALAL-STEMPEL ===== -->
+  <section id="halal" style="padding: 140px 24px; background: #040507; overflow: hidden; scroll-margin-top: 40px">
+    <div style="max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 64px; align-items: center">
+      <div ref="{{halalRef}}" style="display: flex; justify-content: center">
+        <div style="position: relative; width: min(440px, 82vw); aspect-ratio: 1 / 1">
+          <sc-if value="{{halalOn}}" hint-placeholder-val="{{false}}">
+            <div class="shake" style="position: absolute; inset: 0">
+              <div class="ripple" aria-hidden="true" style="position: absolute; inset: 18%; border-radius: 50%; border: 2px solid rgba(140,203,240,0.5); animation-delay: 1.4s"></div>
+              <div class="ripple" aria-hidden="true" style="position: absolute; inset: 18%; border-radius: 50%; border: 2px solid rgba(140,203,240,0.5); animation-delay: 2.4s"></div>
+              <div class="shock" aria-hidden="true" style="position: absolute; inset: 18%; border-radius: 50%; border: 3px solid #8CCBF0; animation-delay: .5s"></div>
+              <div class="shock" aria-hidden="true" style="position: absolute; inset: 18%; border-radius: 50%; border: 2px solid rgba(140,203,240,0.6); animation-delay: .62s"></div>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #8CCBF0; --dx: 190px; --dy: -40px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border-radius: 50%; background: #EEF2F5; --dx: 120px; --dy: -160px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #8CCBF0; --dx: -40px; --dy: -195px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border-radius: 50%; background: #EEF2F5; --dx: -170px; --dy: -110px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #8CCBF0; --dx: -195px; --dy: 50px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border-radius: 50%; background: #EEF2F5; --dx: -110px; --dy: 170px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #8CCBF0; --dx: 50px; --dy: 195px"></span>
+              <span class="burst" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border-radius: 50%; background: #EEF2F5; --dx: 170px; --dy: 120px"></span>
+              <div class="ringText" aria-hidden="true" style="position: absolute; inset: 0">
+                <svg class="ringSpin" viewBox="0 0 200 200" style="width: 100%; height: 100%">
+                  <defs><path id="circ" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"></path></defs>
+                  <text font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8CCBF0"><textPath href="#circ" textLength="534" lengthAdjust="spacing">{{t.ring}}</textPath></text>
+                </svg>
+              </div>
+              <div class="stamp" role="img" aria-label="{{t.stampAria}}" style="position: absolute; inset: 20%; border-radius: 50%; background: #8CCBF0; color: #07090C; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; box-shadow: 0 0 0 8px #040507, 0 0 0 10px #8CCBF0, 0 0 90px rgba(140,203,240,0.45)">
+                <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#07090C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="check" d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+                <span style="font-size: clamp(36px, 5vw, 56px); font-weight: 900; letter-spacing: -0.03em; line-height: 1">{{t.stamp}}</span>
+                <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.22em">{{t.stampSub}}</span>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      <div class="reveal">
+        <p style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.halalEyebrow}}</p>
+        <h2 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.halalA}}<br><span style="color: #8CCBF0">{{t.halalB}}</span></h2>
+        <p style="margin: 26px 0 0; max-width: 520px; font-size: 20px; line-height: 1.55; color: #A7AFB8">{{t.halalP}}</p>
+        <a class="moreLink" href="halal.html" style="margin-top: 32px">{{t.moreHalal}} <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WARUM TDB: STAPELKARTEN ===== -->
+  <section id="warum" style="max-width: 1240px; margin: 0 auto; padding: 150px 24px 60px; scroll-margin-top: 40px">
+    <p class="reveal" style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.whyEyebrow}}</p>
+    <h2 class="wipe" style="margin: 0 0 64px; font-size: clamp(44px, 6.5vw, 96px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.08em">{{t.whyA}}</h2>
+
+    <div style="position: sticky; top: 96px; margin-bottom: 36vh">
+      <div style="min-height: 480px; border-radius: 36px; background: #0E1318; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 -20px 60px rgba(0,0,0,0.5); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.c1e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c1a}}<br><span style="color: #8E969F">{{t.c1b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.c1p}}</p>
+        </div>
+        <div aria-hidden="true" style="flex: 0 0 auto; width: 200px; height: 200px; border-radius: 50%; border: 2px solid #8CCBF0; display: flex; align-items: center; justify-content: center; font-size: 110px; font-weight: 900; color: #8CCBF0; margin: 0 auto">€</div>
+      </div>
+    </div>
+
+    <div style="position: sticky; top: 120px; margin-bottom: 36vh">
+      <div style="min-height: 480px; border-radius: 36px; background: #121921; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 -20px 60px rgba(0,0,0,0.55); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.c2e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c2a}}<br><span style="color: #8CCBF0">{{t.c2b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.c2p}}</p>
+        </div>
+        <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1" aria-hidden="true" style="flex: 0 0 auto; margin: 0 auto"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
+      </div>
+    </div>
+
+    <div style="position: sticky; top: 144px; margin-bottom: 8vh">
+      <div style="min-height: 480px; border-radius: 36px; background: #8CCBF0; color: #07090C; box-shadow: 0 -20px 60px rgba(0,0,0,0.6); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #1E3A4D">{{t.c3e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c3a}}<br><span style="color: #1E3A4D">{{t.c3b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #1E3A4D">{{t.c3p}}</p>
+        </div>
+        <div style="flex: 0 1 360px; height: 80px; overflow: hidden">
+          <div class="ticker" style="display: flex; flex-direction: column; font-size: clamp(48px, 6vw, 68px); font-weight: 900; letter-spacing: -0.04em; color: #07090C; line-height: 80px">
+            <span>Deutsch.</span><span>English.</span><span>Kurdî.</span><span>Türkçe.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <a class="moreLink" href="ueber-uns.html">{{t.moreAbout}} <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+  </section>
+
+  <!-- ===== LIEFERGEBIET: KARTE ===== -->
+  <section id="liefergebiet" style="max-width: 1280px; margin: 0 auto; padding: 120px 24px 150px; scroll-margin-top: 40px">
+    <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+      <div ref="{{areaRef}}" style="flex: 1 1 340px; max-width: 460px">
+        <p style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.areaEyebrow}}</p>
+        <div style="display: flex; align-items: center; gap: 18px">
+          <span style="display: inline-block; min-width: 0.66em; padding-right: 0.04em; font-size: clamp(140px, 18vw, 240px); font-weight: 900; letter-spacing: 0; line-height: 1; color: #8CCBF0; font-variant-numeric: tabular-nums; text-align: center">
+            <span class="{{countCls}}" style="display: inline-block; animation: countPop .25s cubic-bezier(.16,1,.3,1) both">{{count}}</span>
+          </span>
+          <span style="font-size: clamp(30px, 3.6vw, 50px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05">{{t.areaA}}<br><span style="color: #8E969F">{{t.areaB}}</span></span>
+        </div>
+        <p style="margin: 28px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.areaP}}</p>
+        <a class="moreLink" href="liefergebiet.html" style="margin-top: 32px">{{t.moreArea}} <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+      </div>
+
+      <div style="flex: 999 1 520px; min-width: 0; position: relative; border-radius: 36px; background: #0B0F14; border: 1px solid rgba(255,255,255,0.07); overflow: hidden">
+        <svg viewBox="40 60 920 860" role="img" aria-label="{{t.mapAria}}" style="display: block; width: 100%; height: auto">
+          <circle cx="637" cy="576" r="150" fill="none" stroke="rgba(140,203,240,0.08)" stroke-dasharray="4 8"></circle>
+          <circle cx="637" cy="576" r="300" fill="none" stroke="rgba(140,203,240,0.07)" stroke-dasharray="4 8"></circle>
+          <circle cx="637" cy="576" r="470" fill="none" stroke="rgba(140,203,240,0.06)" stroke-dasharray="4 8"></circle>
+          <path d="M820 920 C 790 880, 760 850, 720 800 S 668 740, 662 690 S 655 600, 662 540 S 640 450, 610 380 S 520 260, 470 200 S 440 110, 430 60" fill="none" stroke="#132634" stroke-width="12" stroke-linecap="round"></path>
+          <text x="560" y="318" transform="rotate(-52 560 318)" font-family="Inter Tight, sans-serif" font-size="18" font-style="italic" fill="#4B6A80">{{t.rhine}}</text>
+          <g fill="#3B4652">
+            <circle cx="466" cy="155" r="6"></circle><circle cx="165" cy="223" r="6"></circle><circle cx="658" cy="437" r="6"></circle><circle cx="797" cy="497" r="6"></circle>
+            <circle cx="502" cy="613" r="6"></circle><circle cx="560" cy="662" r="6"></circle><circle cx="650" cy="736" r="6"></circle><circle cx="762" cy="866" r="6"></circle>
+          </g>
+          <g font-family="Inter Tight, sans-serif" font-size="24" font-weight="600" fill="#C3CAD2">
+            <text x="466" y="131" text-anchor="middle">Düsseldorf</text>
+            <text x="165" y="199" text-anchor="middle">Mönchengladbach</text>
+            <text x="676" y="444" text-anchor="start">Leverkusen</text>
+            <text x="797" y="538" text-anchor="middle">Bergisch Gladbach</text>
+            <text x="484" y="620" text-anchor="end">Frechen</text>
+            <text x="542" y="684" text-anchor="end">Hürth</text>
+            <text x="668" y="744" text-anchor="start">Wesseling</text>
+            <text x="780" y="874" text-anchor="start">Bonn</text>
+          </g>
+          <circle cx="637" cy="576" r="14" fill="#8CCBF0"></circle>
+          <text x="678" y="624" font-family="Inter Tight, sans-serif" font-size="30" font-weight="900" fill="#8CCBF0">Köln</text>
+        </svg>
+
+        <sc-if value="{{mapOn}}" hint-placeholder-val="{{false}}">
+          <svg viewBox="40 60 920 860" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%">
+            <defs>
+              <marker id="arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8CCBF0"></path></marker>
+            </defs>
+            <circle class="cityPing" cx="637" cy="576" r="14" fill="none" stroke="#8CCBF0" stroke-width="2"></circle>
+            <circle class="cityPing" cx="637" cy="576" r="14" fill="none" stroke="#8CCBF0" stroke-width="2" style="animation-delay: 1.2s"></circle>
+
+            <g fill="none" stroke="rgba(140,203,240,0.35)" stroke-width="2.5" stroke-linecap="round">
+              <path class="draw" d="M637 576 Q675 511 655 455" style="animation-delay: .1s"></path>
+              <path class="draw" d="M637 576 Q733 569 781 505" style="animation-delay: .25s"></path>
+              <path class="draw" d="M637 576 Q562 568 519 608" style="animation-delay: .4s"></path>
+              <path class="draw" d="M637 576 Q581 604 572 649" style="animation-delay: .55s"></path>
+              <path class="draw" d="M637 576 Q612 659 649 718" style="animation-delay: .7s"></path>
+              <path class="draw" d="M637 576 Q642 746 755 850" style="animation-delay: .85s"></path>
+              <path class="draw" d="M637 576 Q636 331 473 172" style="animation-delay: 1s"></path>
+              <path class="draw" d="M637 576 Q472 305 179 234" style="animation-delay: 1.15s"></path>
+            </g>
+
+            <g fill="none" stroke="#8CCBF0" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 14" marker-end="url(#arr)">
+              <path d="M637 576 Q675 511 655 455" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.1s both"></path>
+              <path d="M637 576 Q733 569 781 505" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.25s both"></path>
+              <path d="M637 576 Q562 568 519 608" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.4s both"></path>
+              <path d="M637 576 Q581 604 572 649" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.55s both"></path>
+              <path d="M637 576 Q612 659 649 718" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.7s both"></path>
+              <path d="M637 576 Q642 746 755 850" style="animation: flow 1s linear infinite, fadeIn .5s ease 1.85s both"></path>
+              <path d="M637 576 Q636 331 473 172" style="animation: flow 1s linear infinite, fadeIn .5s ease 2s both"></path>
+              <path d="M637 576 Q472 305 179 234" style="animation: flow 1s linear infinite, fadeIn .5s ease 2.15s both"></path>
+            </g>
+
+            <g fill="#EEF2F5">
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.2s both"><animateMotion dur="1.4s" repeatCount="indefinite" path="M637 576 Q675 511 655 455"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.35s both"><animateMotion dur="1.6s" repeatCount="indefinite" path="M637 576 Q733 569 781 505"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.5s both"><animateMotion dur="1.4s" repeatCount="indefinite" path="M637 576 Q562 568 519 608"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.65s both"><animateMotion dur="1.3s" repeatCount="indefinite" path="M637 576 Q581 604 572 649"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.8s both"><animateMotion dur="1.4s" repeatCount="indefinite" path="M637 576 Q612 659 649 718"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 1.95s both"><animateMotion dur="2.2s" repeatCount="indefinite" path="M637 576 Q642 746 755 850"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 2.1s both"><animateMotion dur="3s" repeatCount="indefinite" path="M637 576 Q636 331 473 172"></animateMotion></circle>
+              <circle r="5.5" style="animation: fadeIn .4s ease 2.25s both"><animateMotion dur="3.8s" repeatCount="indefinite" path="M637 576 Q472 305 179 234"></animateMotion></circle>
+            </g>
+
+            <g fill="#8CCBF0">
+              <circle class="popIn" cx="658" cy="437" r="8" style="animation-delay: 1.1s"></circle>
+              <circle class="popIn" cx="797" cy="497" r="8" style="animation-delay: 1.25s"></circle>
+              <circle class="popIn" cx="502" cy="613" r="8" style="animation-delay: 1.4s"></circle>
+              <circle class="popIn" cx="560" cy="662" r="8" style="animation-delay: 1.55s"></circle>
+              <circle class="popIn" cx="650" cy="736" r="8" style="animation-delay: 1.7s"></circle>
+              <circle class="popIn" cx="762" cy="866" r="8" style="animation-delay: 1.85s"></circle>
+              <circle class="popIn" cx="466" cy="155" r="8" style="animation-delay: 2s"></circle>
+              <circle class="popIn" cx="165" cy="223" r="8" style="animation-delay: 2.15s"></circle>
+            </g>
+          </svg>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FÜR WEN ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 0 24px 150px">
+    <p class="reveal" style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.trustEyebrow}}</p>
+    <h2 class="wipe" style="margin: 0; font-size: clamp(40px, 6.5vw, 100px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.08em">{{t.trustA}}<br><span style="color: #8CCBF0">{{t.trustB}}</span></h2>
+    <p class="reveal" style="margin: 24px 0 56px; max-width: 620px; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.trustP}}</p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px">
+      <sc-for list="{{logos}}" as="lg" hint-placeholder-count="8">
+        <div class="flip3d" style="{{lg.delay}}">
+          <sc-if value="{{lg.img}}" hint-placeholder-val="{{false}}">
+            <div class="card" role="img" aria-label="{{lg.label}}" style="border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background: #0D1116; aspect-ratio: 3 / 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 14px">
+              <img src="{{lg.img}}" alt="" loading="lazy" style="height: 62%; width: auto; aspect-ratio: 1 / 1; object-fit: contain">
+              <span style="font-size: 13px; font-weight: 600; color: #E9EDF1; text-align: center">{{lg.label}}</span>
+            </div>
+          </sc-if>
+          <sc-if value="{{lg.noImg}}" hint-placeholder-val="{{true}}">
+          <div class="card ph" role="img" aria-label="{{lg.label}}" style="border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); aspect-ratio: 3 / 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.5" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9"></path><path d="M3 9h18v11H3z"></path><path d="M9 20v-6h6v6"></path></svg>
+            <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A7AFB8">{{lg.label}}</span>
+          </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ===== INSTAGRAM ===== -->
+  <section style="padding: 150px 24px; background: #040507; overflow: clip">
+    <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
+      <div class="reveal" style="flex: 1 1 380px; max-width: 560px">
+        <div style="display: flex; align-items: center; gap: 14px">
+          <svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true">
+            <defs>
+              <radialGradient id="igA" cx="0.3" cy="1.07" r="1.2"><stop offset="0" stop-color="#FDF497"></stop><stop offset="0.08" stop-color="#FDF497"></stop><stop offset="0.45" stop-color="#FD5949"></stop><stop offset="0.6" stop-color="#D6249F"></stop><stop offset="0.9" stop-color="#285AEB"></stop></radialGradient>
+            </defs>
+            <rect width="56" height="56" rx="15" fill="url(#igA)"></rect>
+            <rect x="12" y="12" width="32" height="32" rx="9.5" fill="none" stroke="#fff" stroke-width="3.6"></rect>
+            <circle cx="28" cy="28" r="7.6" fill="none" stroke="#fff" stroke-width="3.6"></circle>
+            <circle cx="37.4" cy="18.6" r="2.3" fill="#fff"></circle>
+          </svg>
+          <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 14px; letter-spacing: 0.08em; color: #EEF2F5">@tdb_food</span>
+        </div>
+        <h2 style="margin: 28px 0 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.igA}}<br><span style="color: #8E969F">{{t.igB}}</span></h2>
+        <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.igP}}</p>
+        <a class="igBtn" href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener" style="margin-top: 32px; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; border-radius: 999px; background: linear-gradient(90deg, #F58529 0%, #DD2A7B 45%, #8134AF 75%, #515BD4 100%); color: #FFFFFF; font-size: 17px; font-weight: 700; text-decoration: none">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle></svg>
+          {{t.igCta}}
+        </a>
+      </div>
+
+      <div style="flex: 1 1 320px; display: flex; justify-content: center; perspective: 1400px">
+        <div ref="{{phoneRef}}" style="transform-style: preserve-3d; transform: rotateY(32deg) rotateX(8deg) rotateZ(-8deg); transition: transform .12s linear; will-change: transform">
+          <a href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener" aria-label="{{t.igCta}}" style="display: block; width: 300px; height: 620px; border-radius: 52px; padding: 10px; background: #1A1D22; box-shadow: 0 0 0 2px #2C3138 inset, 0 60px 120px -30px rgba(0,0,0,0.9), 0 0 120px -20px rgba(214,41,118,0.35); text-decoration: none; color: #0B0B0B">
+            <div style="position: relative; width: 100%; height: 100%; border-radius: 43px; overflow: hidden; background: #0C0F14; color: #F5F5F5; font-family: -apple-system, 'SF Pro Text', 'Inter Tight', system-ui, sans-serif">
+              <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 88px; height: 26px; border-radius: 18px; background: #000"></div>
+              <!-- Statusleiste -->
+              <div aria-hidden="true" style="position: absolute; top: 14px; left: 0; right: 0; padding: 0 24px 0 30px; display: flex; align-items: center; justify-content: space-between; font-size: 13px; font-weight: 600; letter-spacing: -0.01em">
+                <span>18:00</span>
+                <span style="display: flex; align-items: center; gap: 5px">
+                  <svg width="16" height="11" viewBox="0 0 16 11" fill="#F5F5F5"><rect x="0" y="7" width="3" height="4" rx="0.8"></rect><rect x="4.3" y="5" width="3" height="6" rx="0.8"></rect><rect x="8.6" y="2.6" width="3" height="8.4" rx="0.8"></rect><rect x="12.9" y="0" width="3" height="11" rx="0.8"></rect></svg>
+                  <svg width="15" height="11" viewBox="0 0 15 11" fill="#F5F5F5"><path d="M7.5 2.2c2.1 0 4 .8 5.5 2.2l1.1-1.2C12.3 1.4 10 .5 7.5.5S2.7 1.4.9 3.2L2 4.4c1.5-1.4 3.4-2.2 5.5-2.2zm0 3.3c1.2 0 2.4.5 3.2 1.3l1.2-1.2C10.7 4.5 9.2 3.8 7.5 3.8s-3.2.7-4.4 1.8l1.2 1.2c.8-.8 2-1.3 3.2-1.3zm0 3.2c-.5 0-1 .2-1.3.6L7.5 11l1.3-1.7c-.3-.4-.8-.6-1.3-.6z"></path></svg>
+                  <span style="position: relative; display: inline-flex; align-items: center; width: 24px; height: 11.5px; border-radius: 3.5px; border: 1px solid rgba(245,245,245,0.45); padding: 1.3px">
+                    <span style="display: block; width: 72%; height: 100%; border-radius: 2px; background: #F5F5F5"></span>
+                    <span style="position: absolute; right: -3.2px; top: 3px; width: 1.6px; height: 4px; border-radius: 0 1px 1px 0; background: rgba(245,245,245,0.45)"></span>
+                  </span>
+                </span>
+              </div>
+              <!-- Kopfzeile -->
+              <div style="padding: 48px 14px 0; display: flex; align-items: center; gap: 12px">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+                <span style="flex: 1; font-size: 17px; font-weight: 700; letter-spacing: -0.01em">tdb_food</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="1.9" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"></path><path d="M10 20.5a2 2 0 0 0 4 0"></path></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5F5F5" aria-hidden="true"><circle cx="5" cy="12" r="1.7"></circle><circle cx="12" cy="12" r="1.7"></circle><circle cx="19" cy="12" r="1.7"></circle></svg>
+              </div>
+              <!-- Profil -->
+              <div style="padding: 18px 14px 0; display: flex; align-items: center; gap: 14px">
+                <img src="assets/logo.svg" alt="TDB Food Logo" style="width: 70px; height: 70px; border-radius: 50%; flex-shrink: 0; display: block">
+                <div style="flex: 1; min-width: 0">
+                  <div style="font-size: 12.5px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">TDB Food | Meat &amp; More</div>
+                  <div style="margin-top: 7px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px">
+                    <div><div style="font-size: 14px; font-weight: 700">2</div><div style="font-size: 10.5px; color: #E0E0E0">{{t.igPosts}}</div></div>
+                    <div><div style="font-size: 14px; font-weight: 700">110</div><div style="font-size: 10.5px; color: #E0E0E0">Follower</div></div>
+                    <div><div style="font-size: 14px; font-weight: 700">155</div><div style="font-size: 10.5px; color: #E0E0E0">{{t.igFollowing}}</div></div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bio -->
+              <div style="padding: 12px 14px 0; font-size: 11.5px; line-height: 1.45">
+                <div style="color: #A8A8A8">Großhandel</div>
+                <div>Fleischgroßhandel für Gastronomie &amp; Gewerbe</div>
+                <div>Rind · Lamm · Geflügel · Eier</div>
+                <div>Lieferung in ganz NRW</div>
+                <div style="color: #8C9EFF">Marconistraße 34, Cologne, Germany</div>
+              </div>
+              <!-- Buttons -->
+              <div style="padding: 14px 14px 0; display: flex; gap: 6px">
+                <span style="flex: 1; min-height: 30px; border-radius: 8px; background: #0095F6; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 12.5px; font-weight: 700">{{t.igFollow}}</span>
+                <span style="flex: 1; min-height: 30px; border-radius: 8px; background: #262A31; display: flex; align-items: center; justify-content: center; font-size: 12.5px; font-weight: 700">{{t.igMsg}}</span>
+                <span style="flex: 1; min-height: 30px; border-radius: 8px; background: #262A31; display: flex; align-items: center; justify-content: center; font-size: 12.5px; font-weight: 700">{{t.igContact}}</span>
+                <span style="width: 32px; min-height: 30px; border-radius: 8px; background: #262A31; display: flex; align-items: center; justify-content: center">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2" aria-hidden="true"><circle cx="10" cy="8" r="4"></circle><path d="M3 20a7 7 0 0 1 14 0M19 8v6M16 11h6"></path></svg>
+                </span>
+              </div>
+              <!-- Tabs -->
+              <div style="margin-top: 16px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-bottom: 1px solid #262A31">
+                <div style="display: flex; justify-content: center; padding: 9px 0; border-bottom: 2px solid #F5F5F5">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5F5F5" aria-hidden="true"><rect x="3" y="3" width="5" height="5" rx="1"></rect><rect x="9.5" y="3" width="5" height="5" rx="1"></rect><rect x="16" y="3" width="5" height="5" rx="1"></rect><rect x="3" y="9.5" width="5" height="5" rx="1"></rect><rect x="9.5" y="9.5" width="5" height="5" rx="1"></rect><rect x="16" y="9.5" width="5" height="5" rx="1"></rect><rect x="3" y="16" width="5" height="5" rx="1"></rect><rect x="9.5" y="16" width="5" height="5" rx="1"></rect><rect x="16" y="16" width="5" height="5" rx="1"></rect></svg>
+                </div>
+                <div style="display: flex; justify-content: center; padding: 9px 0">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A8A8A8" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><path d="M10 9v6l5-3z" fill="#A8A8A8"></path></svg>
+                </div>
+                <div style="display: flex; justify-content: center; padding: 9px 0">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A8A8A8" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"></rect><circle cx="12" cy="10" r="3"></circle><path d="M6.5 19a6 6 0 0 1 11 0"></path></svg>
+                </div>
+              </div>
+              <!-- Beiträge -->
+              <div style="margin-top: 1px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px">
+                <img src="assets/instagram-1.jpg" alt="Instagram-Beitrag: Unser Sortiment" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover">
+                <img src="assets/instagram-2.jpg" alt="Instagram-Beitrag: Willkommen bei TDB Food" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover">
+              </div>
+              <!-- Untere Leiste -->
+              <div aria-hidden="true" style="position: absolute; left: 12px; right: 12px; bottom: 14px; height: 50px; border-radius: 26px; background: rgba(28,31,37,0.92); border: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: space-around">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5V20h-5.5v-6h-5v6H4z"></path></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><path d="M10 9v6l5-3z" fill="#F5F5F5"></path></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2" stroke-linejoin="round"><path d="M21 3L3 10l7 3 3 7z"></path><path d="M10 13l11-10"></path></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F5F5F5" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+                <span style="position: relative; width: 40px; height: 34px; border-radius: 17px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center">
+                  <img src="assets/logo.svg" alt="" style="width: 24px; height: 24px; border-radius: 50%; display: block">
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" style="max-width: 900px; margin: 0 auto; padding: 150px 24px; scroll-margin-top: 40px">
+    <h2 class="wipe" style="margin: 0 0 40px; font-size: clamp(40px, 6vw, 80px); line-height: 1.05; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.12em">{{t.faqA}}</h2>
+    <div style="border-top: 1px solid rgba(255,255,255,0.1)">
+      <sc-for list="{{faqs}}" as="q" hint-placeholder-count="7">
+        <div style="border-bottom: 1px solid rgba(255,255,255,0.1)">
+          <button class="faqBtn" type="button" onClick="{{q.toggle}}" aria-expanded="{{q.expanded}}" style="width: 100%; min-height: 76px; padding: 20px 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; background: transparent; border: 0; color: #EEF2F5; font: inherit; font-size: clamp(19px, 2vw, 24px); font-weight: 700; letter-spacing: -0.02em; text-align: left; cursor: pointer">
+            {{q.q}}
+            <svg class="faqIcon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="2" aria-hidden="true" style="{{q.iconStyle}}"><path d="M12 5v14M5 12h14"></path></svg>
+          </button>
+          <div class="faqBody" style="{{q.bodyStyle}}">
+            <div style="overflow: hidden">
+              <p style="margin: 0; padding: 0 0 26px; max-width: 700px; font-size: 18px; line-height: 1.6; color: #A7AFB8">{{q.a}}</p>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ===== KONTAKT ===== -->
+  <section id="kontakt" class="circleOpen" style="padding: 150px 24px; background: #8CCBF0; color: #07090C; scroll-margin-top: 40px">
+    <div style="max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: start">
+      <div>
+        <p style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #1E3A4D">{{t.contactEyebrow}}</p>
+        <h2 style="margin: 0; font-size: clamp(48px, 7vw, 104px); line-height: 0.95; letter-spacing: -0.055em; font-weight: 900; padding-bottom: 0.06em">{{t.contactA}}<br>{{t.contactB}}</h2>
+        <p style="margin: 26px 0 0; max-width: 440px; font-size: 19px; line-height: 1.55; color: #1E3A4D">{{t.contactP}}</p>
+        <div style="margin-top: 36px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; font-weight: 600">
+          <a href="tel:+4917624115839" style="color: #07090C; text-decoration: none">+49 176 24115839</a>
+          <a href="mailto:info@tdb-food.de" style="color: #07090C; text-decoration: none">info@tdb-food.de</a>
+          <span style="font-weight: 500; color: #1E3A4D">Marconistraße 34, 50769 Köln</span>
+        </div>
+      </div>
+      <div style="background: #07090C; color: #EEF2F5; border-radius: 32px; padding: 36px; display: flex; flex-direction: column; gap: 18px">
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="f-name" style="font-size: 14px; font-weight: 600; color: #A7AFB8">{{t.fName}}</label>
+          <input id="f-name" class="field" type="text" autocomplete="name" value="{{fName}}" onInput="{{setName}}" style="min-height: 52px; padding: 0 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.16); background: #10151B; color: #EEF2F5; font: inherit; font-size: 17px">
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="f-firma" style="font-size: 14px; font-weight: 600; color: #A7AFB8">{{t.fFirma}}</label>
+          <input id="f-firma" class="field" type="text" autocomplete="organization" value="{{fFirma}}" onInput="{{setFirma}}" style="min-height: 52px; padding: 0 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.16); background: #10151B; color: #EEF2F5; font: inherit; font-size: 17px">
+        </div>
+        <fieldset style="margin: 0; padding: 0; border: 0">
+          <legend style="padding: 0; margin-bottom: 10px; font-size: 14px; font-weight: 600; color: #A7AFB8">{{t.fInterest}}</legend>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px">
+            <sc-for list="{{cats}}" as="c" hint-placeholder-count="6">
+              <button class="chip" type="button" onClick="{{c.toggle}}" aria-pressed="{{c.pressed}}" style="{{c.style}}">{{c.name}}</button>
+            </sc-for>
+          </div>
+        </fieldset>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="f-msg" style="font-size: 14px; font-weight: 600; color: #A7AFB8">{{t.fMsg}}</label>
+          <textarea id="f-msg" class="field" rows="4" value="{{fMsg}}" onInput="{{setMsg}}" style="padding: 14px 16px; border-radius: 14px; border: 1px solid rgba(255,255,255,0.16); background: #10151B; color: #EEF2F5; font: inherit; font-size: 17px; resize: vertical"></textarea>
+        </div>
+        <a class="cta" href="{{waLink}}" target="_blank" rel="noopener" style="margin-top: 6px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 58px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 18px; font-weight: 800; text-decoration: none">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>
+          {{t.send}}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schwebender WhatsApp-Button -->
+  <a class="fab" href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="{{t.fab}}" style="position: fixed; right: 20px; bottom: 20px; z-index: 70; width: 64px; height: 64px; border-radius: 50%; background: #25D366; color: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 40px rgba(0,0,0,0.5)">
+    <span class="fabPing" aria-hidden="true" style="position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25D366"></span>
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg>
+  </a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background: #040507; border-top: 1px solid rgba(255,255,255,0.07); padding: 80px 24px 32px">
+    <div style="max-width: 1240px; margin: 0 auto">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 40px">
+        <div style="display: flex; flex-direction: column; gap: 16px">
+          <a href="#top" aria-label="TDB Food | Meat &amp; More" style="display: block; width: 96px; height: 96px"><img src="assets/logo.svg" alt="TDB Food | Meat &amp; More" style="width: 96px; height: 96px; border-radius: 50%; display: block"></a>
+          <span style="font-size: 18px; font-weight: 800; letter-spacing: -0.01em"><span style="color: #8CCBF0">TDB Food</span> <span style="color: #8E969F">| Meat &amp; More</span></span>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #A7AFB8">{{t.footTag}}</p>
+          <div style="display: flex; gap: 10px">
+            <a href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener" aria-label="Instagram @tdb_food" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <svg width="34" height="34" viewBox="0 0 56 56" aria-hidden="true"><defs><radialGradient id="igB" cx="0.3" cy="1.07" r="1.2"><stop offset="0" stop-color="#FDF497"></stop><stop offset="0.08" stop-color="#FDF497"></stop><stop offset="0.45" stop-color="#FD5949"></stop><stop offset="0.6" stop-color="#D6249F"></stop><stop offset="0.9" stop-color="#285AEB"></stop></radialGradient></defs><rect width="56" height="56" rx="15" fill="url(#igB)"></rect><rect x="12" y="12" width="32" height="32" rx="9.5" fill="none" stroke="#fff" stroke-width="3.6"></rect><circle cx="28" cy="28" r="7.6" fill="none" stroke="#fff" stroke-width="3.6"></circle><circle cx="37.4" cy="18.6" r="2.3" fill="#fff"></circle></svg>
+            </a>
+            <a href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="WhatsApp" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <span style="width: 34px; height: 34px; border-radius: 9px; background: #25D366; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg></span>
+            </a>
+          </div>
+        </div>
+        <nav aria-label="{{t.colSort}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colSort}}</span>
+          <sc-for list="{{slides}}" as="s" hint-placeholder-count="6"><a class="navlink" href="sortiment.html" onClick="{{s.go}}">{{s.name}}</a></sc-for>
+        </nav>
+        <nav aria-label="{{t.colCo}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colCo}}</span>
+          <a class="navlink" href="ueber-uns.html">{{t.navAbout}}</a>
+          <a class="navlink" href="halal.html">{{t.navHalal}}</a>
+          <a class="navlink" href="liefergebiet.html">{{t.navArea}}</a>
+          <a class="navlink" href="kontakt.html">{{t.navFaq}}</a>
+          <a class="navlink" href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; color: #A7AFB8">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colContact}}</span>
+          <span>TDB GmbH<br>Marconistraße 34<br>50769 Köln</span>
+          <a class="navlink" href="tel:+4917624115839">+49 176 24115839</a>
+          <a class="navlink" href="mailto:info@tdb-food.de">info@tdb-food.de</a>
+          <a class="navlink" href="https://wa.me/4917624115839" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div style="margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; font-size: 14px; color: #8E969F">
+        <span>{{t.rights}}</span>
+        <div style="display: flex; gap: 22px; flex-wrap: wrap; align-items: center">
+          <a class="navlink" href="impressum.html">{{t.impressum}}</a>
+          <a class="navlink" href="datenschutz.html">{{t.datenschutz}}</a>
+          <span aria-hidden="true" style="width: 1px; height: 16px; background: rgba(255,255,255,0.15)"></span>
+          <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+            <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.footStyle}}">{{l.code}}</button>
+          </sc-for>
+          <a href="#top" aria-label="{{t.toTop}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; color: #EEF2F5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</template>
+<div id="root"></div>
+<script src="assets/runtime.js"></script>
+<script>
+
+var I18N = {
+  de: {
+    code: "DE", label: "Deutsch", langLabel: "Sprache wählen", menu: "Menü", toTop: "Nach oben",
+    navStart: "Start", navSort: "Sortiment", navHalal: "Halal", navArea: "Liefergebiet", navAbout: "Über uns", navFaq: "FAQ", navContact: "Kontakt", navCta: "Anfragen",
+    heroEyebrow: "Fleischgroßhandel · Köln", heroA: "Lieferant lässt dich hängen?", heroB: "Wir nicht.",
+    heroSub: "Für Restaurants, Imbisse, Cafés und Supermärkte im Rheinland. Heute bis 18 Uhr bestellt – morgen gekühlt bei dir.",
+    heroCta1: "Angebot anfragen", heroCta2: "Sortiment ansehen", heroVideo: "", heroVideoAria: "Rindersteak mit feiner Marmorierung auf dunklem Schiefer",
+    kinetic: ["Hähnchen", "Rind", "Kalb", "Lamm", "Pute", "Eier", "Halal geschlachtet.", "Morgen bei dir."],
+    zoomEyebrow: "Lieferung", zoomA: "Bis 18 Uhr bestellt.", zoomB: "Morgen in deiner Kühlung.",
+    zoomP: "Am Abend bereiten wir alles vor, früh am Morgen wird gepackt und unsere Kühlfahrzeuge fahren los. Ausnahmen gibt es selten – und dann sagen wir es dir vorher.",
+    stepsEyebrow: "So läuft's", stepsA: "Drei Schritte.", stepsB: "Kein Papierkram.",
+    s1t: "Schreib uns", s1p: "Per WhatsApp, Telefon oder E-Mail – auf Deutsch, Englisch, Kurdisch oder Türkisch.",
+    s2t: "Bis 18 Uhr bestellen", s2p: "Wir bereiten alles vor, damit am nächsten Morgen früh gepackt wird.",
+    s3t: "Morgen geliefert", s3p: "Früh los, gekühlt bis an deine Tür – im ganzen Liefergebiet.",
+    sortEyebrow: "Sortiment", sortA: "Unser Sortiment.", sortB: "Alles aus einer Hand.", photo: "Foto folgt", badge: "Halal-zertifiziert",
+    prev: "Vorherige Kategorie", next: "Nächste Kategorie", show: "anzeigen",
+    items: [
+      ["Hähnchen", "Ganzes Hähnchen, Brust, Schenkel, Flügel – so portioniert, wie deine Küche arbeitet."],
+      ["Rind & Jungbulle", "Vom Hackfleisch für den Imbiss bis zu Steaks und Braten für dein Restaurant."],
+      ["Kalb", "Zart, hell, sauber pariert. Für Schnitzel, Ragout und Geschnetzeltes."],
+      ["Lamm", "Keule, Schulter, Kotelett – für Grill, Ofen und Schmorgerichte."],
+      ["Pute", "Mager, vielseitig, verlässlich. Von Brustfilet bis Oberkeule."],
+      ["Eier", "Frische Eier für Küche, Frühstück und Backstube – einfach mit auf deine Bestellung."]
+    ],
+    halalEyebrow: "Halal", halalA: "Alles halal", halalB: "geschlachtet.",
+    halalP: "Jedes Tier wird halal geschlachtet – mit Zertifikat, nicht nur mit Versprechen. Das Zertifikat zeigen wir dir gern vor der ersten Bestellung.",
+    stamp: "HALAL", stampSub: "ZERTIFIZIERT", stampAria: "Halal-zertifiziert", ring: "100 % HALAL · ZERTIFIZIERT · TDB FOOD | MEAT & MORE · ",
+    whyEyebrow: "Warum TDB", whyA: "Darauf kannst du bauen.",
+    c1e: "01 · Preis", c1a: "Gute Preise.", c1b: "Ohne Sternchen.", c1p: "Du bekommst den Preis, den wir nennen. Keine versteckten Zuschläge, keine Überraschung auf der Rechnung.",
+    c2e: "02 · Verlässlichkeit", c2a: "Wir lassen", c2b: "niemanden im Stich.", c2p: "Wenn am Samstagabend das Hähnchen knapp wird, landest du nicht in einer Warteschleife. Du schreibst uns – und wir finden eine Lösung.",
+    c3e: "03 · Team", c3a: "Junges Unternehmen.", c3b: "Jahrelange Erfahrung.", c3p: "TDB ist neu am Markt, unser Team kennt die Branche seit Jahren. Wir beraten dich in deiner Sprache:",
+    areaEyebrow: "Liefergebiet", areaA: "Städte.", areaB: "Ein Kühlnetz.", areaP: "Von unserem Lager in Köln aus fahren wir jeden Morgen ins Rheinland. Deine Stadt fehlt? Frag trotzdem.",
+    mapAria: "Karte: Lieferungen von Köln nach Düsseldorf, Mönchengladbach, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling und Bonn", rhine: "Rhein",
+    whoA: "Für jede Küche,", whoB: "die läuft.",
+    trustEyebrow: "Unsere Kunden", trustA: "Diese Kunden", trustB: "vertrauen uns.", trustP: "Restaurants, Imbisse, Cafés und Supermärkte im ganzen Rheinland setzen auf uns.", logo: "Kundenlogo",
+    who: [["Restaurants", "Gleichbleibende Qualität, damit dein Gericht jeden Abend gleich gut schmeckt."], ["Imbisse", "Faire Kilopreise und Lieferung, bevor der Mittagsansturm kommt."], ["Supermärkte", "Volle Theke, sauber gekühlt geliefert – alles halal geschlachtet."], ["Cafés & Gewerbe", "Auch für kleinere Betriebe – und die Eier fürs Frühstück gleich mit dabei."]],
+    igA: "Frisch auf", igB: "Instagram.", igP: "Lager, Lieferungen, frische Ware: Auf Instagram zeigen wir, wie TDB jeden Tag arbeitet.", igCta: "Folge @tdb_food", igBio: "Fleischgroßhandel · Köln · Halal", igFollow: "Folgen", igMsg: "Nachricht", igContact: "Kontakt", igPosts: "Beiträge", igFollowing: "Gefolgt",
+    faqA: "Kurz gefragt.",
+    faqs: [
+      ["Bis wann muss ich bestellen?", "Bestellungen, die bis 18 Uhr bei uns sind, liefern wir am nächsten Tag. In seltenen Einzelfällen kann es anders laufen – dann sagen wir dir rechtzeitig Bescheid."],
+      ["Ist alles halal?", "Ja. Unser gesamtes Fleisch ist halal geschlachtet und zertifiziert. Das Zertifikat zeigen wir dir gern vorab."],
+      ["Liefert ihr in meine Stadt?", "Wir beliefern Köln, Bonn, Düsseldorf, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling und Mönchengladbach. Deine Stadt ist nicht dabei? Frag trotzdem nach."],
+      ["Wie bestelle ich?", "Am schnellsten per WhatsApp – das Formular unten schreibt dir die Nachricht automatisch. Telefon und E-Mail gehen natürlich auch."],
+      ["Wie wird geliefert?", "Mit unseren eigenen Kühlfahrzeugen. So bleibt die Kühlkette vom Lager bis zu deiner Tür geschlossen."],
+      ["Wen beliefert ihr?", "Restaurants, Imbisse, Cafés, Supermärkte und andere Gewerbekunden."],
+      ["In welcher Sprache kann ich bestellen?", "Auf Deutsch, Englisch, Kurdisch oder Türkisch – wie es dir am leichtesten fällt."]
+    ],
+    contactEyebrow: "Anfrage", contactA: "Schreib uns.", contactB: "Wir antworten.", contactP: "Füll das Formular aus – es öffnet WhatsApp mit deiner fertigen Nachricht an uns.",
+    fName: "Name", fFirma: "Betrieb", fInterest: "Was interessiert dich?", fMsg: "Deine Nachricht an uns", send: "Per WhatsApp senden",
+    mHello: "Hallo TDB Food, hier ist", mInterest: "Ich interessiere mich für:", mDefault: "Ich interessiere mich für euer Sortiment.", mName: "[Name]",
+    footTag: "Fleischgroßhandel für Gastronomie und Handel im Rheinland. Alles halal geschlachtet.", colSort: "Sortiment", colCo: "Unternehmen", colContact: "Kontakt",
+    rights: "© 2026 TDB GmbH. Alle Rechte vorbehalten.", impressum: "Impressum", datenschutz: "Datenschutz", agb: "AGB", fab: "Per WhatsApp schreiben", moreSort: "Ganzes Sortiment ansehen", moreHalal: "Mehr zu Halal", moreAbout: "Mehr über uns", moreArea: "Liefergebiet im Detail"
+  },
+  en: {
+    code: "EN", label: "English", langLabel: "Choose language", menu: "Menu", toTop: "Back to top",
+    navStart: "Home", navSort: "Products", navHalal: "Halal", navArea: "Delivery area", navAbout: "About us", navFaq: "FAQ", navContact: "Contact", navCta: "Enquire",
+    heroEyebrow: "Meat wholesale · Cologne", heroA: "Supplier letting you down?", heroB: "We won't.",
+    heroSub: "For restaurants, takeaways, cafés and supermarkets in the Rhineland. Order by 6 pm – chilled at your door tomorrow.",
+    heroCta1: "Request a quote", heroCta2: "View products", heroVideo: "", heroVideoAria: "Marbled beef steak on dark slate",
+    kinetic: ["Chicken", "Beef", "Veal", "Lamb", "Turkey", "Eggs", "Halal slaughtered.", "At your door tomorrow."],
+    zoomEyebrow: "Delivery", zoomA: "Ordered by 6 pm.", zoomB: "In your cold room tomorrow.",
+    zoomP: "In the evening we prepare everything, early in the morning we pack and our refrigerated trucks head out. Exceptions are rare – and if one happens, we tell you in advance.",
+    stepsEyebrow: "How it works", stepsA: "Three steps.", stepsB: "No paperwork.",
+    s1t: "Message us", s1p: "Via WhatsApp, phone or email – in German, English, Kurdish or Turkish.",
+    s2t: "Order by 6 pm", s2p: "We prepare everything so packing starts early the next morning.",
+    s3t: "Delivered tomorrow", s3p: "Out early, chilled all the way to your door – across the whole delivery area.",
+    sortEyebrow: "Products", sortA: "Our range.", sortB: "Everything from one source.", photo: "Photo coming soon", badge: "Halal certified",
+    prev: "Previous category", next: "Next category", show: "show",
+    items: [
+      ["Chicken", "Whole chicken, breast, thighs, wings – portioned the way your kitchen works."],
+      ["Beef & young bull", "From mince for takeaways to steaks and roasts for your restaurant."],
+      ["Veal", "Tender, pale, neatly trimmed. For schnitzel, ragout and sliced veal."],
+      ["Lamb", "Leg, shoulder, chops – for the grill, the oven and slow-cooked dishes."],
+      ["Turkey", "Lean, versatile, reliable. From breast fillet to thigh."],
+      ["Eggs", "Fresh eggs for kitchen, breakfast and bakery – simply add them to your order."]
+    ],
+    halalEyebrow: "Halal", halalA: "All halal", halalB: "slaughtered.",
+    halalP: "Every animal is slaughtered halal – certified, not just promised. We're happy to show you the certificate before your first order.",
+    stamp: "HALAL", stampSub: "CERTIFIED", stampAria: "Halal certified", ring: "100 % HALAL · CERTIFIED · TDB FOOD | MEAT & MORE · ",
+    whyEyebrow: "Why TDB", whyA: "What you can count on.",
+    c1e: "01 · Price", c1a: "Fair prices.", c1b: "No small print.", c1p: "You pay the price we quote. No hidden surcharges, no surprises on the invoice.",
+    c2e: "02 · Reliability", c2a: "We never", c2b: "leave you hanging.", c2p: "When chicken runs low on a Saturday night, you won't end up in a phone queue. You message us – and we find a solution.",
+    c3e: "03 · Team", c3a: "A young company.", c3b: "Years of experience.", c3p: "TDB is new to the market, but our team has known the trade for years. We advise you in your language:",
+    areaEyebrow: "Delivery area", areaA: "cities.", areaB: "One cold chain.", areaP: "Every morning we drive out from our warehouse in Cologne across the Rhineland. Your city isn't listed? Ask anyway.",
+    mapAria: "Map: deliveries from Cologne to Düsseldorf, Mönchengladbach, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling and Bonn", rhine: "Rhine",
+    whoA: "For every kitchen", whoB: "that keeps running.",
+    trustEyebrow: "Our customers", trustA: "These customers", trustB: "trust us.", trustP: "Restaurants, takeaways, cafés and supermarkets across the Rhineland rely on us.", logo: "Customer logo",
+    who: [["Restaurants", "Consistent quality, so your dish tastes just as good every night."], ["Takeaways", "Fair prices per kilo and delivery before the lunch rush."], ["Supermarkets", "A full counter, delivered properly chilled – all halal slaughtered."], ["Cafés & businesses", "For smaller businesses too – with eggs for breakfast included."]],
+    igA: "Fresh on", igB: "Instagram.", igP: "Warehouse, deliveries, fresh produce: on Instagram we show how TDB works every day.", igCta: "Follow @tdb_food", igBio: "Meat wholesale · Cologne · Halal", igFollow: "Follow", igMsg: "Message", igContact: "Contact", igPosts: "posts", igFollowing: "following",
+    faqA: "Quick answers.",
+    faqs: [
+      ["What's the order deadline?", "Orders we receive by 6 pm are delivered the next day. In rare cases things may differ – then we'll let you know in good time."],
+      ["Is everything halal?", "Yes. All our meat is halal slaughtered and certified. We're happy to show you the certificate in advance."],
+      ["Do you deliver to my city?", "We deliver to Cologne, Bonn, Düsseldorf, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling and Mönchengladbach. Your city isn't listed? Ask anyway."],
+      ["How do I order?", "Fastest via WhatsApp – the form below writes the message for you. Phone and email work too, of course."],
+      ["How do you deliver?", "With our own refrigerated trucks, so the cold chain stays unbroken from our warehouse to your door."],
+      ["Who do you supply?", "Restaurants, takeaways, cafés, supermarkets and other business customers."],
+      ["Which languages do you speak?", "German, English, Kurdish or Turkish – whatever is easiest for you."]
+    ],
+    contactEyebrow: "Enquiry", contactA: "Message us.", contactB: "We'll reply.", contactP: "Fill in the form – it opens WhatsApp with your message ready to send.",
+    fName: "Name", fFirma: "Business", fInterest: "What are you interested in?", fMsg: "Your message to us", send: "Send via WhatsApp",
+    mHello: "Hello TDB Food, this is", mInterest: "I'm interested in:", mDefault: "I'm interested in your products.", mName: "[Name]",
+    footTag: "Meat wholesale for restaurants and retailers in the Rhineland. All halal slaughtered.", colSort: "Products", colCo: "Company", colContact: "Contact",
+    rights: "© 2026 TDB GmbH. All rights reserved.", impressum: "Legal notice", datenschutz: "Privacy policy", agb: "Terms", fab: "Message us on WhatsApp", moreSort: "View full range", moreHalal: "More about halal", moreAbout: "More about us", moreArea: "Delivery area in detail"
+  },
+  ku: {
+    code: "KU", label: "Kurdî", langLabel: "Ziman hilbijêre", menu: "Menû", toTop: "Vegere jor",
+    navStart: "Destpêk", navSort: "Berhem", navHalal: "Helal", navArea: "Herêma radestkirinê", navAbout: "Derbarê me", navFaq: "Pirs", navContact: "Têkilî", navCta: "Bipirse",
+    heroEyebrow: "Toptanfiroşiya goşt · Köln", heroA: "Dabînkerê te te bi tenê dihêle?", heroB: "Em nahêlin.",
+    heroSub: "Ji bo xwaringeh, firoşgehên xwarinê, kafe û marketên li herêma Rheinê. Heta saet 18:00 sîparîş bide – sibê sar li ber deriyê te.",
+    heroCta1: "Pêşniyar bixwaze", heroCta2: "Berheman bibîne", heroVideo: "", heroVideoAria: "Steyka goştê dewar li ser kevirê tarî",
+    kinetic: ["Mirîşk", "Goştê dewar", "Golik", "Berx", "Elok", "Hêk", "Helal serjêkirî.", "Sibê li cem te."],
+    zoomEyebrow: "Radestkirin", zoomA: "Heta 18:00 sîparîş.", zoomB: "Sibê di sarincê te de.",
+    zoomP: "Êvarê em her tiştî amade dikin, sibê zû tê pakkirin û wesayîtên me yên sar bi rê dikevin. Îstîsna kêm in – heke çêbibe, em berê ji te re dibêjin.",
+    stepsEyebrow: "Çawa dixebite", stepsA: "Sê gav.", stepsB: "Bê kaxez.",
+    s1t: "Ji me re binivîse", s1p: "Bi WhatsApp, telefon an e-nameyê – bi Almanî, Îngilîzî, Kurdî an Tirkî.",
+    s2t: "Heta 18:00 sîparîş bide", s2p: "Em her tiştî amade dikin da ku sibeha din zû were pakkirin.",
+    s3t: "Sibê tê radestkirin", s3p: "Zû bi rê dikevin, sar heta ber deriyê te – li tevahiya herêmê.",
+    sortEyebrow: "Berhem", sortA: "Berhemên me.", sortB: "Hemû ji destekî.", photo: "Wêne nêzîk e", badge: "Bi sertîfîkaya helal",
+    prev: "Kategoriya berê", next: "Kategoriya din", show: "nîşan bide",
+    items: [
+      ["Mirîşk", "Mirîşka tevahî, sîng, ran, bask – wekî ku metbexa te dixebite hatine parvekirin."],
+      ["Dewar & gayê ciwan", "Ji goştê hêrkirî ji bo firoşgeha xwarinê heta steyk û biraştin ji bo xwaringeha te."],
+      ["Golik", "Nerm, ronî, bi baldarî paqijkirî. Ji bo şnîtzel, ragû û goştê hûrkirî."],
+      ["Berx", "Ran, mil, pirzol – ji bo mangal, firin û xwarinên hêdî-pijandî."],
+      ["Elok", "Kêm-rûn, pirreng, pêbawer. Ji fîleya sîngê heta ranê."],
+      ["Hêk", "Hêkên teze ji bo metbex, taştê û nanpêjxaneyê – tenê li sîparîşa xwe zêde bike."]
+    ],
+    halalEyebrow: "Helal", halalA: "Hemû helal", halalB: "serjêkirî.",
+    halalP: "Her heywan helal tê serjêkirin – bi sertîfîkayê, ne tenê bi sozê. Em ê sertîfîkayê berî sîparîşa te ya yekem bi kêfxweşî nîşanî te bidin.",
+    stamp: "HELAL", stampSub: "SERTÎFÎKAKIRÎ", stampAria: "Bi sertîfîkaya helal", ring: "%100 HELAL · SERTÎFÎKAKIRÎ · TDB FOOD | MEAT & MORE · ",
+    whyEyebrow: "Çima TDB", whyA: "Tu dikarî pişta xwe bidî me.",
+    c1e: "01 · Biha", c1a: "Bihayên baş.", c1b: "Bê şertên veşartî.", c1p: "Tu wê bihayê didî ku em dibêjin. Bê zêdebihayên veşartî, bê surprîz li ser fatûreyê.",
+    c2e: "02 · Pêbawerî", c2a: "Em tu kesî", c2b: "bi tenê nahêlin.", c2p: "Gava şemiyê êvarê mirîşk kêm dibe, tu di rêza bendê de namînî. Tu ji me re dinivîsî – û em çareseriyekê dibînin.",
+    c3e: "03 · Tîm", c3a: "Şirketek ciwan.", c3b: "Salên ezmûnê.", c3p: "TDB li bazarê nû ye, lê tîma me bi salan e sektorê nas dike. Em bi zimanê te şîretan didin:",
+    areaEyebrow: "Herêma radestkirinê", areaA: "Bajar.", areaB: "Zincîreke sar.", areaP: "Her sibe em ji depoya xwe ya li Kölnê ber bi herêma Rheinê ve diçin. Bajarê te ne di lîsteyê de ye? Dîsa jî bipirse.",
+    mapAria: "Nexşe: radestkirin ji Kölnê ber bi Düsseldorf, Mönchengladbach, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling û Bonnê", rhine: "Rhein",
+    whoA: "Ji bo her metbexê", whoB: "ku dixebite.",
+    trustEyebrow: "Xerîdarên me", trustA: "Ev xerîdar", trustB: "bi me bawer dikin.", trustP: "Xwaringeh, firoşgehên xwarinê, kafe û market li seranserê herêma Rheinê pişta xwe didin me.", logo: "Logoya xerîdar",
+    who: [["Xwaringeh", "Kalîteya domdar, da ku xwarina te her êvar heman tamê bide."], ["Firoşgehên xwarinê", "Bihayên adil ji bo kîloyê û radestkirin berî qerebalixa nîvro."], ["Market", "Refeke tije, bi sarî radestkirî – hemû helal serjêkirî."], ["Kafe & karsazî", "Ji bo karsaziyên biçûk jî – hêkên taştê jî tê de."]],
+    igA: "Li ser Instagramê", igB: "her roj teze.", igP: "Depo, radestkirin, berhemên teze: li ser Instagramê em nîşan didin ka TDB her roj çawa dixebite.", igCta: "@tdb_food bişopîne", igBio: "Toptanfiroşiya goşt · Köln · Helal", igFollow: "Bişopîne", igMsg: "Peyam", igContact: "Têkilî", igPosts: "Parve", igFollowing: "Dişopîne",
+    faqA: "Pirsên kurt.",
+    faqs: [
+      ["Heta kengê divê ez sîparîş bidim?", "Sîparîşên ku heta saet 18:00 digihîjin me, em roja din radest dikin. Di rewşên kêm de dibe ku cuda be – wê demê em di wextê xwe de ji te re dibêjin."],
+      ["Ma her tişt helal e?", "Erê. Hemû goştê me helal serjêkirî û sertîfîkakirî ye. Em sertîfîkayê berê bi kêfxweşî nîşan didin."],
+      ["Hûn bajarê min radest dikin?", "Em Köln, Bonn, Düsseldorf, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling û Mönchengladbach radest dikin. Bajarê te ne di lîsteyê de ye? Dîsa jî bipirse."],
+      ["Ez çawa sîparîş bidim?", "Ya herî bilez bi WhatsAppê ye – forma li jêr peyamê ji te re bixweber dinivîse. Telefon û e-name jî dibin."],
+      ["Radestkirin çawa ye?", "Bi wesayîtên me yên sar ên taybet. Bi vî awayî zincîra sar ji depoyê heta deriyê te naqete."],
+      ["Hûn ji kê re radest dikin?", "Xwaringeh, firoşgehên xwarinê, kafe, market û karsaziyên din."],
+      ["Ez bi kîjan zimanî dikarim sîparîş bidim?", "Bi Almanî, Îngilîzî, Kurdî an Tirkî – kîjan ji te re hêsantir be."]
+    ],
+    contactEyebrow: "Daxwaz", contactA: "Ji me re binivîse.", contactB: "Em bersiv didin.", contactP: "Formê dagire – WhatsApp bi peyama te ya amade vedibe.",
+    fName: "Nav", fFirma: "Karsazî", fInterest: "Tu bi çi re eleqedar î?", fMsg: "Peyama te ji me re", send: "Bi WhatsAppê bişîne",
+    mHello: "Silav TDB Food, ez", mInterest: "Ez bi van re eleqedar im:", mDefault: "Ez bi berhemên we re eleqedar im.", mName: "[Nav]",
+    footTag: "Toptanfiroşiya goşt ji bo xwaringeh û bazirganiyê li herêma Rheinê. Hemû helal serjêkirî.", colSort: "Berhem", colCo: "Şirket", colContact: "Têkilî",
+    rights: "© 2026 TDB GmbH. Hemû maf parastî ne.", impressum: "Impressum", datenschutz: "Parastina daneyan", agb: "Merc", fab: "Bi WhatsAppê binivîse", moreSort: "Hemû berheman bibîne", moreHalal: "Zêdetir li ser helal", moreAbout: "Zêdetir derbarê me", moreArea: "Herêma radestkirinê bi hûrgilî"
+  },
+  tr: {
+    code: "TR", label: "Türkçe", langLabel: "Dil seç", menu: "Menü", toTop: "Yukarı çık",
+    navStart: "Ana sayfa", navSort: "Ürünler", navHalal: "Helal", navArea: "Teslimat bölgesi", navAbout: "Hakkımızda", navFaq: "SSS", navContact: "İletişim", navCta: "Teklif al",
+    heroEyebrow: "Et toptancısı · Köln", heroA: "Tedarikçin seni yüzüstü mü bırakıyor?", heroB: "Biz bırakmayız.",
+    heroSub: "Ren bölgesindeki restoranlar, büfeler, kafeler ve marketler için. Saat 18:00'e kadar sipariş ver – yarın soğutulmuş olarak kapında.",
+    heroCta1: "Teklif iste", heroCta2: "Ürünlere göz at", heroVideo: "", heroVideoAria: "Koyu arduvaz üzerinde mermerli sığır bifteği",
+    kinetic: ["Tavuk", "Sığır", "Dana", "Kuzu", "Hindi", "Yumurta", "Helal kesim.", "Yarın kapında."],
+    zoomEyebrow: "Teslimat", zoomA: "18:00'e kadar sipariş.", zoomB: "Yarın soğuk odanda.",
+    zoomP: "Akşam her şeyi hazırlıyoruz, sabah erkenden paketleniyor ve soğutmalı araçlarımız yola çıkıyor. İstisnalar nadirdir – olursa sana önceden haber veririz.",
+    stepsEyebrow: "Nasıl işler", stepsA: "Üç adım.", stepsB: "Evrak işi yok.",
+    s1t: "Bize yaz", s1p: "WhatsApp, telefon veya e-posta ile – Almanca, İngilizce, Kürtçe veya Türkçe.",
+    s2t: "18:00'e kadar sipariş ver", s2p: "Her şeyi hazırlıyoruz, ertesi sabah erkenden paketleme başlıyor.",
+    s3t: "Yarın teslim", s3p: "Erkenden yola çıkıyoruz, soğuk zincirle kapına kadar – tüm teslimat bölgesinde.",
+    sortEyebrow: "Ürünler", sortA: "Ürün yelpazemiz.", sortB: "Hepsi tek elden.", photo: "Fotoğraf yakında", badge: "Helal sertifikalı",
+    prev: "Önceki kategori", next: "Sonraki kategori", show: "göster",
+    items: [
+      ["Tavuk", "Bütün tavuk, göğüs, but, kanat – mutfağının çalıştığı şekilde porsiyonlanmış."],
+      ["Sığır & genç boğa", "Büfe için kıymadan restoranın için biftek ve rostoya kadar."],
+      ["Dana", "Yumuşak, açık renkli, özenle temizlenmiş. Şinitzel, yahni ve sote için."],
+      ["Kuzu", "But, kol, pirzola – ızgara, fırın ve güveç yemekleri için."],
+      ["Hindi", "Yağsız, çok yönlü, güvenilir. Göğüs filetosundan but etine kadar."],
+      ["Yumurta", "Mutfak, kahvaltı ve fırın için taze yumurta – siparişine eklemen yeterli."]
+    ],
+    halalEyebrow: "Helal", halalA: "Hepsi helal", halalB: "kesim.",
+    halalP: "Her hayvan helal olarak kesilir – sadece sözle değil, sertifikayla. İlk siparişinden önce sertifikayı memnuniyetle gösteririz.",
+    stamp: "HELAL", stampSub: "SERTİFİKALI", stampAria: "Helal sertifikalı", ring: "%100 HELAL · SERTİFİKALI · TDB FOOD | MEAT & MORE · ",
+    whyEyebrow: "Neden TDB", whyA: "Güvenebileceğin şeyler.",
+    c1e: "01 · Fiyat", c1a: "İyi fiyatlar.", c1b: "Gizli şart yok.", c1p: "Söylediğimiz fiyatı ödersin. Gizli ek ücret yok, faturada sürpriz yok.",
+    c2e: "02 · Güvenilirlik", c2a: "Kimseyi", c2b: "yarı yolda bırakmayız.", c2p: "Cumartesi akşamı tavuk azaldığında bekleme hattında kalmazsın. Bize yazarsın – biz de bir çözüm buluruz.",
+    c3e: "03 · Ekip", c3a: "Genç bir şirket.", c3b: "Yılların tecrübesi.", c3p: "TDB pazarda yeni, ama ekibimiz sektörü yıllardır tanıyor. Seni kendi dilinde bilgilendiriyoruz:",
+    areaEyebrow: "Teslimat bölgesi", areaA: "şehir.", areaB: "Tek soğuk zincir.", areaP: "Her sabah Köln'deki depomuzdan Ren bölgesine yola çıkıyoruz. Şehrin listede yok mu? Yine de sor.",
+    mapAria: "Harita: Köln'den Düsseldorf, Mönchengladbach, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling ve Bonn'a teslimat", rhine: "Ren",
+    whoA: "Her mutfak için,", whoB: "yoğun günlerde de.",
+    trustEyebrow: "Müşterilerimiz", trustA: "Bu müşteriler", trustB: "bize güveniyor.", trustP: "Ren bölgesindeki restoranlar, büfeler, kafeler ve marketler bize güveniyor.", logo: "Müşteri logosu",
+    who: [["Restoranlar", "Yemeğin her akşam aynı lezzette olsun diye sabit kalite."], ["Büfeler", "Uygun kilo fiyatları ve öğle yoğunluğundan önce teslimat."], ["Marketler", "Dolu bir reyon, soğuk zincirle teslim – tamamı helal kesim."], ["Kafeler & işletmeler", "Küçük işletmeler için de – kahvaltılık yumurtalar da dahil."]],
+    igA: "Instagram'da", igB: "taze içerik.", igP: "Depo, teslimatlar, taze ürünler: Instagram'da TDB'nin her gün nasıl çalıştığını gösteriyoruz.", igCta: "@tdb_food'u takip et", igBio: "Et toptancısı · Köln · Helal", igFollow: "Takip et", igMsg: "Mesaj", igContact: "İletişim", igPosts: "gönderi", igFollowing: "takip",
+    faqA: "Kısaca sorular.",
+    faqs: [
+      ["Ne zamana kadar sipariş vermeliyim?", "Saat 18:00'e kadar bize ulaşan siparişleri ertesi gün teslim ediyoruz. Nadir durumlarda farklı olabilir – o zaman sana zamanında haber veririz."],
+      ["Her şey helal mi?", "Evet. Tüm etlerimiz helal kesilmiştir ve sertifikalıdır. Sertifikayı önceden memnuniyetle gösteririz."],
+      ["Şehrime teslimat yapıyor musunuz?", "Köln, Bonn, Düsseldorf, Leverkusen, Bergisch Gladbach, Frechen, Hürth, Wesseling ve Mönchengladbach'a teslimat yapıyoruz. Şehrin listede yok mu? Yine de sor."],
+      ["Nasıl sipariş veririm?", "En hızlısı WhatsApp – aşağıdaki form mesajını senin için otomatik yazar. Telefon ve e-posta da elbette olur."],
+      ["Teslimat nasıl yapılıyor?", "Kendi soğutmalı araçlarımızla. Böylece soğuk zincir depodan kapına kadar kesintisiz kalır."],
+      ["Kimlere teslimat yapıyorsunuz?", "Restoranlar, büfeler, kafeler, marketler ve diğer işletmeler."],
+      ["Hangi dilde sipariş verebilirim?", "Almanca, İngilizce, Kürtçe veya Türkçe – sana hangisi kolaysa."]
+    ],
+    contactEyebrow: "Talep", contactA: "Bize yaz.", contactB: "Cevap veririz.", contactP: "Formu doldur – mesajın hazır şekilde WhatsApp açılır.",
+    fName: "Ad", fFirma: "İşletme", fInterest: "Neyle ilgileniyorsun?", fMsg: "Bize mesajın", send: "WhatsApp ile gönder",
+    mHello: "Merhaba TDB Food, ben", mInterest: "İlgilendiğim ürünler:", mDefault: "Ürünlerinizle ilgileniyorum.", mName: "[Ad]",
+    footTag: "Ren bölgesinde gastronomi ve ticaret için et toptancısı. Tamamı helal kesim.", colSort: "Ürünler", colCo: "Şirket", colContact: "İletişim",
+    rights: "© 2026 TDB GmbH. Tüm hakları saklıdır.", impressum: "Künye", datenschutz: "Gizlilik politikası", agb: "Genel şartlar", fab: "WhatsApp ile yaz", moreSort: "Tüm ürünleri gör", moreHalal: "Helal hakkında daha fazla", moreAbout: "Hakkımızda daha fazla", moreArea: "Teslimat bölgesi detaylı"
+  }
+};
+
+var PROD_MEDIA = [
+  { v: "assets/produkt-haehnchen.mp4", p: "assets/produkt-haehnchen.jpg" },  // Hähnchen
+  { v: "assets/produkt-rind.mp4", p: "assets/produkt-rind.jpg" },  // Rind & Jungbulle
+  { v: "assets/produkt-kalb.mp4", p: "assets/produkt-kalb.jpg" },  // Kalb
+  { v: "assets/produkt-lamm.mp4", p: "assets/produkt-lamm.jpg", pos: "68% 75%" },  // Lamm
+  { v: "assets/produkt-pute.mp4", p: "assets/produkt-pute.jpg", pos: "45% 60%" },  // Pute
+  { v: "assets/produkt-eier.mp4", p: "assets/produkt-eier.jpg", pos: "70% 60%" }   // Eier
+];
+var CUSTOMERS = [
+  { name: "NaiNai Bao Köln", img: "assets/kunde-nainai-bao.png" },
+  { name: "Dao Dao Mian Köln", img: "assets/kunde-daodao-mian.png" },
+  { name: "Holi Köln · 2 Restaurants", img: "assets/kunde-holi.png" },
+  { name: "Ganesha Indian Restaurant", img: "assets/kunde-ganesha.png" },
+  { name: "Swaad Indian Cuisine", img: "assets/kunde-swaad.png" },
+  { name: "JJ Chicken · Korean Fried Chicken", img: "assets/kunde-jj-chicken.png" },
+  { name: "Imbiss Shukran", img: "assets/kunde-shukran.png" },
+  { name: "Tandır Restaurant", img: "assets/kunde-tandir.png" },
+  { name: "Tiba Supermarkt · 3 Filialen in Mönchengladbach", img: "assets/kunde-tiba.png" },
+  { name: "Afandi Imbiss Köln", img: "assets/kunde-afandi.png" }
+];
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    var saved = null;
+    try { saved = window.localStorage.getItem("tdb-lang"); } catch (e) {}
+    this.state = { lang: (saved && I18N[saved]) ? saved : "de", langOpen: false, menuOpen: false, idx: 0, paused: false, mx: 50, my: 40, name: "", firma: "", msg: "", open: 0, picked: [], halalOn: false, mapOn: false, count: 0 };
+    this.last = Date.now();
+    this.tick = null;
+    this.raf = null;
+    this.touchX = null;
+    this.halalEl = null;
+    this.areaEl = null;
+    this.io = null;
+    this.countTimer = null;
+  }
+  componentDidMount() {
+    var self = this;
+    this.tick = setInterval(function () {
+      if (self.state.paused) { self.last = Date.now(); return; }
+      if (Date.now() - self.last >= (PROD_MEDIA[self.state.idx] ? 6200 : 4500)) {
+        self.last = Date.now();
+        self.setState({ idx: (self.state.idx + 1) % 6 });
+      }
+    }, 200);
+    setTimeout(function () { self.observe(); }, 50);
+    // Produkt-Videos im Slider: das Video der aktiven Folie läuft einmal ab, sobald der Slider zu sehen ist
+    this.prodTimer = setInterval(function () {
+      var vids = document.querySelectorAll("video.prodVid");
+      for (var k = 0; k < vids.length; k++) {
+        var v = vids[k], on = Number(v.getAttribute("data-i")) === self.state.idx;
+        if (on) {
+          var r = v.getBoundingClientRect(), vh = window.innerHeight || 800;
+          if (!v._done && r.bottom > vh * 0.15 && r.top < vh * 0.85) {
+            v._done = true; v.muted = true;
+            try { v.currentTime = 0; var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+          }
+        } else if (v._done) {
+          v._done = false;
+          try { v.pause(); v.currentTime = 0; } catch (e) {}
+        }
+      }
+    }, 250);
+    // Hero-Video: startet nach dem Lade-Bildschirm, spielt einmal und bleibt auf dem letzten Bild stehen
+    // Hero-Video: startet nach dem Lade-Bildschirm, spielt einmal und bleibt auf dem letzten Bild stehen.
+    // Blockiert ein Gerät das Video (z. B. iPhone im Stromsparmodus), läuft stattdessen dieselbe Szene als animiertes Bild.
+    var HERO_ANIM = "assets/hero.webp";
+    this.vidTimer = setTimeout(function () {
+      var v = self.heroVid, img = self.heroAnim, shown = false, fallback = false;
+      if (!v) return;
+      var evs = ["touchstart", "touchend", "click", "keydown", "wheel", "scroll"];
+      var removeAll = function () { evs.forEach(function (e) { document.removeEventListener(e, onGesture, true); }); };
+      var show = function () { if (shown || fallback) return; shown = true; v.classList.add("laeuft"); removeAll(); clearTimeout(self.fallbackTimer); };
+      var tryPlay = function () {
+        try { v.muted = true; var p = v.play(); if (p && p.then) p.then(function () { setTimeout(function () { if (!v.paused) show(); }, 120); }, function () {}); } catch (e) {}
+      };
+      var onGesture = function () { if (!shown && !fallback) tryPlay(); };
+      v.addEventListener("playing", function () { setTimeout(function () { if (!v.paused) show(); }, 120); });
+      evs.forEach(function (e) { document.addEventListener(e, onGesture, { capture: true, passive: true }); });
+      tryPlay();
+      self.fallbackTimer = setTimeout(function () {
+        if (shown || !img) return;
+        fallback = true; removeAll();
+        try { v.pause(); } catch (e) {}
+        img.onload = function () { img.classList.add("laeuft"); };
+        var useUrl = function (u) { img.src = u; };
+        try {
+          fetch(HERO_ANIM).then(function (r) { if (!r.ok) throw 0; return r.blob(); })
+            .then(function (b) { useUrl(URL.createObjectURL(b)); }, function () { useUrl(HERO_ANIM); });
+        } catch (e) { useUrl(HERO_ANIM); }
+      }, 1500);
+    }, 1600);
+    // iPhone dreht sich beim Scrollen (funktioniert in allen Browsern, auch Safari)
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    this.onScroll = function () {
+      if (reduce || self.scrollRaf) return;
+      self.scrollRaf = requestAnimationFrame(function () {
+        self.scrollRaf = null;
+        // Parallax im Startbereich: Text gleitet schneller hoch und blendet aus, Steak bleibt fast stehen und wird dunkler
+        // Position über das Element selbst messen – funktioniert in jedem Scroll-Container (auch in Vorschau-Fenstern)
+        var hvh = window.innerHeight || document.documentElement.clientHeight;
+        var sy = self.heroSecEl ? Math.max(0, -self.heroSecEl.getBoundingClientRect().top) : (window.pageYOffset || 0);
+        if (sy < hvh * 1.3) {
+          var hp = Math.min(1, sy / hvh);
+          if (self.heroTextEl) {
+            self.heroTextEl.style.transform = "translate3d(0," + (-sy * 0.45).toFixed(1) + "px,0)";
+            self.heroTextEl.style.opacity = Math.max(0, 1 - hp * 1.7).toFixed(3);
+          }
+          if (self.heroWrapEl) self.heroWrapEl.style.transform = "translate3d(0," + (sy * 0.55).toFixed(1) + "px,0) scale(" + (1 + hp * 0.04).toFixed(4) + ")";
+          if (self.heroDimEl) self.heroDimEl.style.opacity = Math.min(0.85, hp * 1.1).toFixed(3);
+        }
+        var el = self.phoneEl;
+        if (!el) return;
+        var r = el.getBoundingClientRect();
+        var vh = window.innerHeight || document.documentElement.clientHeight;
+        var p = (vh - r.top) / (vh + r.height);
+        if (p < 0) p = 0; if (p > 1) p = 1;
+        var ry = 32 - p * 56, rx = 8 - p * 13, rz = -8 + p * 14;
+        el.style.transform = "rotateY(" + ry.toFixed(2) + "deg) rotateX(" + rx.toFixed(2) + "deg) rotateZ(" + rz.toFixed(2) + "deg)";
+      });
+    };
+    window.addEventListener("scroll", this.onScroll, { passive: true });
+    document.addEventListener("scroll", this.onScroll, { passive: true, capture: true });
+    window.addEventListener("resize", this.onScroll, { passive: true });
+    setTimeout(this.onScroll, 100);
+  }
+  componentWillUnmount() {
+    clearInterval(this.prodTimer);
+    window.removeEventListener("scroll", this.onScroll);
+    document.removeEventListener("scroll", this.onScroll, { capture: true });
+    window.removeEventListener("resize", this.onScroll);
+    if (this.scrollRaf) cancelAnimationFrame(this.scrollRaf);
+    clearInterval(this.tick);
+    clearInterval(this.countTimer);
+    clearTimeout(this.vidTimer);
+    clearTimeout(this.fallbackTimer);
+    clearTimeout(this.gestureTimer);
+    if (this.raf) cancelAnimationFrame(this.raf);
+    if (this.io) this.io.disconnect();
+  }
+  startCount() {
+    var self = this;
+    if (this.countTimer) return;
+    this.setState({ mapOn: true, count: 0 });
+    this.countTimer = setInterval(function () {
+      var n = self.state.count + 1;
+      self.setState({ count: n });
+      if (n >= 9) { clearInterval(self.countTimer); }
+    }, 280);
+  }
+  observe() {
+    var self = this;
+    if (typeof IntersectionObserver === "undefined") {
+      this.setState({ halalOn: true });
+      this.startCount();
+      return;
+    }
+    this.io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        if (en.target === self.halalEl) { self.setState({ halalOn: true }); self.io.unobserve(en.target); }
+        if (en.target === self.areaEl) { self.startCount(); self.io.unobserve(en.target); }
+      });
+    }, { threshold: 0.35 });
+    if (this.halalEl) this.io.observe(this.halalEl);
+    if (this.areaEl) this.io.observe(this.areaEl);
+  }
+  go(i) { this.last = Date.now(); this.setState({ idx: ((i % 6) + 6) % 6 }); }
+  renderVals() {
+    var self = this;
+    var lang = this.state.lang;
+    var t = I18N[lang];
+    var idx = this.state.idx;
+
+    var navItems = [
+      { href: "#top", label: t.navStart }, { href: "sortiment.html", label: t.navSort }, { href: "halal.html", label: t.navHalal },
+      { href: "ueber-uns.html", label: t.navAbout }, { href: "liefergebiet.html", label: t.navArea }, { href: "kontakt.html", label: t.navContact }
+    ];
+    var langs = ["de", "en", "ku", "tr"].map(function (c) {
+      var on = c === lang;
+      return {
+        code: I18N[c].code, label: I18N[c].label, current: on ? "true" : "false",
+        pick: function () { try { window.localStorage.setItem("tdb-lang", c); } catch (e) {} self.setState({ lang: c, langOpen: false, menuOpen: false }); },
+        style: "min-height: 44px; padding: 0 14px; border: 0; border-radius: 12px; text-align: left; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; background: " + (on ? "rgba(140,203,240,0.16)" : "transparent") + "; color: " + (on ? "#8CCBF0" : "#EEF2F5"),
+        footStyle: "min-width: 44px; min-height: 44px; border: 0; background: transparent; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; color: " + (on ? "#8CCBF0" : "#8E969F")
+      };
+    });
+
+    var kinetic = t.kinetic.map(function (k, i) { return { text: k, cls: i >= 6 ? "litBlue" : "lit" }; });
+
+    var slides = t.items.map(function (it, i) {
+      var m = PROD_MEDIA[i];
+      return { name: it[0], text: it[1], num: "0" + (i + 1), i: String(i), vid: m ? m.v : "", poster: m ? m.p : "", vidStyle: "position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: " + (m && m.pos ? m.pos : "50% 70%"), noVid: !m, halal: i < 5, photoLabel: (m ? "" : t.photo + " · ") + it[0], go: function () { self.go(i); } };
+    });
+    var dots = t.items.map(function (it, i) {
+      var on = i === idx;
+      return {
+        label: it[0] + " " + t.show, current: on ? "true" : "false", active: on && !self.state.paused, progStyle: "position: absolute; inset: 0; display: block; background: #8CCBF0; border-radius: 8px; animation-duration: " + (PROD_MEDIA[i] ? 6.2 : 4.5) + "s",
+        go: function () { self.go(i); },
+        style: "position: relative; display: block; overflow: hidden; height: 8px; border-radius: 8px; transition: width .4s cubic-bezier(.16,1,.3,1), background .4s; width: " + (on ? "44px" : "8px") + "; background: " + (on ? "rgba(140,203,240,0.3)" : "rgba(255,255,255,0.3)")
+      };
+    });
+
+    var faqs = t.faqs.map(function (f, i) {
+      var on = self.state.open === i;
+      return {
+        q: f[0], a: f[1], expanded: on ? "true" : "false",
+        toggle: function () { self.setState({ open: on ? -1 : i }); },
+        iconStyle: "flex-shrink: 0; transform: rotate(" + (on ? 45 : 0) + "deg)",
+        bodyStyle: "grid-template-rows: " + (on ? "1fr" : "0fr") + "; opacity: " + (on ? 1 : 0)
+      };
+    });
+
+    var who = t.who.map(function (w, i) { return { t: w[0], p: w[1], num: "0" + (i + 1) }; });
+    var logos = CUSTOMERS.map(function (c, k) { return { label: c.name, img: c.img, noImg: false, delay: "flex: 0 1 calc((100% - 64px) / 5); min-width: 150px; animation-delay: " + ((k + 1) * 0.05).toFixed(2) + "s" }; });
+
+    var picked = this.state.picked;
+    var cats = t.items.map(function (it, i) {
+      var on = picked.indexOf(i) !== -1;
+      return {
+        name: it[0], pressed: on ? "true" : "false",
+        toggle: function () { self.setState({ picked: on ? picked.filter(function (p) { return p !== i; }) : picked.concat([i]) }); },
+        style: "min-height: 44px; padding: 0 16px; border-radius: 999px; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; border: 1px solid " + (on ? "#8CCBF0" : "rgba(255,255,255,0.18)") + "; background: " + (on ? "#8CCBF0" : "transparent") + "; color: " + (on ? "#07090C" : "#EEF2F5")
+      };
+    });
+    var pickedNames = picked.slice().sort().map(function (i) { return t.items[i][0]; });
+    var msg = t.mHello + " " + (this.state.name || t.mName) + (this.state.firma ? " (" + this.state.firma + ")" : "") + ".\n" +
+      (pickedNames.length ? t.mInterest + " " + pickedNames.join(", ") + ".\n" : "") +
+      (this.state.msg || (pickedNames.length ? "" : t.mDefault));
+
+    return {
+      t: t, lang: lang, langCode: t.code,
+      navItems: navItems, langs: langs,
+      langOpen: this.state.langOpen, langOpenAttr: this.state.langOpen ? "true" : "false",
+      menuOpen: this.state.menuOpen, menuOpenAttr: this.state.menuOpen ? "true" : "false",
+      toggleLang: function () { self.setState({ langOpen: !self.state.langOpen }); },
+      toggleMenu: function () { self.setState({ menuOpen: !self.state.menuOpen, langOpen: false }); },
+      closeMenu: function () { self.setState({ menuOpen: false }); },
+      kinetic: kinetic, slides: slides, dots: dots, faqs: faqs, who: who, cats: cats, logos: logos,
+      trackStyle: "display: flex; transform: translateX(-" + (idx * 100) + "%)",
+      prev: function () { self.go(idx - 1); },
+      next: function () { self.go(idx + 1); },
+      touchStart: function (e) { self.touchX = e.touches && e.touches[0] ? e.touches[0].clientX : null; self.setState({ paused: true }); },
+      touchEnd: function (e) {
+        var tt = e.changedTouches && e.changedTouches[0];
+        var dx = (tt && self.touchX !== null) ? tt.clientX - self.touchX : 0;
+        self.touchX = null;
+        self.last = Date.now();
+        if (dx < -40) self.setState({ idx: (self.state.idx + 1) % 6, paused: false });
+        else if (dx > 40) self.setState({ idx: (self.state.idx + 5) % 6, paused: false });
+        else self.setState({ paused: false });
+      },
+      spotStyle: "position: absolute; left: " + this.state.mx + "%; top: " + this.state.my + "%; width: 1000px; height: 1000px; transform: translate(-50%,-50%); border-radius: 50%; pointer-events: none; transition: left .6s cubic-bezier(.16,1,.3,1), top .6s cubic-bezier(.16,1,.3,1); background: radial-gradient(circle, rgba(140,203,240,0.16) 0%, rgba(7,9,12,0) 60%)",
+      onMove: function (e) {
+        var r = e.currentTarget.getBoundingClientRect();
+        var cx = e.clientX, cy = e.clientY;
+        if (self.raf) return;
+        self.raf = requestAnimationFrame(function () {
+          self.raf = null;
+          self.setState({ mx: +(((cx - r.left) / r.width) * 100).toFixed(1), my: +(((cy - r.top) / r.height) * 100).toFixed(1) });
+        });
+      },
+      onLeave: function () { self.setState({ mx: 50, my: 40 }); },
+      halalRef: function (el) { self.halalEl = el; },
+      areaRef: function (el) { self.areaEl = el; },
+      heroSecRef: function (el) { self.heroSecEl = el; },
+      heroWrapRef: function (el) { self.heroWrapEl = el; },
+      heroDimRef: function (el) { self.heroDimEl = el; },
+      heroTextRef: function (el) { self.heroTextEl = el; },
+      heroVidRef: function (el) {
+        self.heroVid = el;
+        if (el) { el.muted = true; el.defaultMuted = true; el.playsInline = true; el.setAttribute("muted", ""); el.setAttribute("playsinline", ""); el.setAttribute("webkit-playsinline", ""); }
+      },
+      heroAnimRef: function (el) { self.heroAnim = el; },
+      phoneRef: function (el) { self.phoneEl = el; if (el && self.onScroll) self.onScroll(); },
+      halalOn: this.state.halalOn,
+      mapOn: this.state.mapOn,
+      count: this.state.count,
+      countCls: "c" + this.state.count,
+      fName: this.state.name, fFirma: this.state.firma, fMsg: this.state.msg,
+      setName: function (e) { self.setState({ name: e.target.value }); },
+      setFirma: function (e) { self.setState({ firma: e.target.value }); },
+      setMsg: function (e) { self.setState({ msg: e.target.value }); },
+      waLink: "https://wa.me/4917624115839?text=" + encodeURIComponent(msg)
+    };
+  }
+}
+
+DC.mount(Component);
+</script>
+<script src="assets/hinweis.js" defer></script>
+</body>
+</html>

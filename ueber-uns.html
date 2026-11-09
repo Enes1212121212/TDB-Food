@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Über uns – TDB Food | Meat &amp; More</title>
+<meta name="description" content="Junges Unternehmen, jahrelange Erfahrung: TDB Food | Meat &amp; More ist Ihr Fleischgroßhandel aus Köln. Beratung auf Deutsch, Englisch, Kurdisch und Türkisch.">
+<link rel="canonical" href="https://tdb-food.de/ueber-uns.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Über uns – TDB Food | Meat &amp; More">
+<meta property="og:description" content="Junges Unternehmen, jahrelange Erfahrung: TDB Food | Meat &amp; More ist Ihr Fleischgroßhandel aus Köln. Beratung auf Deutsch, Englisch, Kurdisch und Türkisch.">
+<meta property="og:url" content="https://tdb-food.de/ueber-uns.html">
+<meta property="og:image" content="https://tdb-food.de/assets/kuehlfahrzeug.jpg">
+<meta name="theme-color" content="#07090C">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/logo.svg">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+body{margin:0;background:#07090C}
+a{color:#8CCBF0}a:hover{color:#BFE3F8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@keyframes word{0%{opacity:0;transform:translateY(70%) rotateX(-80deg)}100%{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(70px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fabIn{from{opacity:0;transform:translateY(40px) scale(.6)}to{opacity:1;transform:none}}
+@keyframes fabPing{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+@keyframes menuIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+@keyframes ticker{0%,20%{transform:translateY(0)}25%,45%{transform:translateY(-25%)}50%,70%{transform:translateY(-50%)}75%,95%{transform:translateY(-75%)}100%{transform:translateY(0)}}
+@keyframes imgIn{from{clip-path:inset(0 0 100% 0);transform:scale(1.15)}to{clip-path:inset(0 0 0 0);transform:none}}
+@keyframes flip3d{from{transform:perspective(1200px) rotateX(55deg) translateY(100px);opacity:0}to{transform:none;opacity:1}}
+.word{display:inline-block;transform-origin:50% 100%;animation:word 1s cubic-bezier(.16,1,.3,1) both}
+.fadeUp{animation:fadeUp 1s cubic-bezier(.16,1,.3,1) both}
+.ticker{animation:ticker 8s cubic-bezier(.77,0,.18,1) infinite}
+@supports (animation-timeline: view()){
+  .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+  .imgIn{animation:imgIn linear both;animation-timeline:view();animation-range:entry 0% cover 40%}
+  .flip3d{animation:flip3d linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+  .progress{animation:grow linear both;animation-timeline:scroll(root)}
+}
+@supports not (animation-timeline: view()){ .progress{display:none} }
+.fab{animation:fabIn .8s cubic-bezier(.16,1,.3,1) .8s both;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.fab:hover{transform:scale(1.08)}
+.fabPing{animation:fabPing 2.4s ease-out 1.6s infinite}
+.menuIn{animation:menuIn .35s cubic-bezier(.16,1,.3,1) both}
+.cta{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}
+.cta:hover{transform:scale(1.05);box-shadow:0 0 50px rgba(140,203,240,.5)}
+.navlink{color:#A7AFB8;text-decoration:none;transition:color .2s}
+.navlink:hover{color:#EEF2F5}
+.card{transition:transform .5s cubic-bezier(.16,1,.3,1),border-color .5s}
+.card:hover{transform:perspective(900px) rotateX(5deg) rotateY(-5deg) translateY(-8px);border-color:rgba(140,203,240,.5)}
+.ph{background-color:#0F141A;background-image:repeating-linear-gradient(135deg,rgba(140,203,240,.05) 0 2px,transparent 2px 18px)}
+.navDesk{display:flex}
+.navMob{display:none}
+@media (max-width: 1080px){ .navDesk{display:none} .navMob{display:flex} }
+@media (max-width: 480px){ .hideSm{display:none} }
+@media (prefers-reduced-motion: reduce){ *,*::before,*::after{animation:none !important;transition:none !important} }
+</style>
+<noscript><style>#root{display:none}</style></noscript>
+</head>
+<body>
+<noscript><p style="font-family:system-ui;padding:24px;color:#EEF2F5;background:#07090C">Bitte JavaScript aktivieren. Kontakt: +49 176 24115839 · info@tdb-food.de · Marconistraße 34, 50769 Köln</p></noscript>
+<template id="dc-tpl">
+
+<div lang="{{lang}}" style="min-height: 100vh; background: #07090C; color: #EEF2F5; font-family: 'Inter Tight', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip">
+
+  <div class="progress" aria-hidden="true" style="position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 61; transform-origin: left; background: #8CCBF0; box-shadow: 0 0 14px #8CCBF0"></div>
+
+  <!-- ===== MENÜLEISTE ===== -->
+  <header style="position: fixed; top: 0; left: 0; right: 0; z-index: 60; backdrop-filter: saturate(180%) blur(18px); -webkit-backdrop-filter: saturate(180%) blur(18px); background: rgba(7,9,12,0.72); border-bottom: 1px solid rgba(255,255,255,0.06)">
+    <nav aria-label="Hauptmenü" style="max-width: 1280px; margin: 0 auto; padding: 0 20px; min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px">
+      <a href="index.html" aria-label="TDB Food | Meat &amp; More" style="display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0">
+        <img src="assets/logo.svg" alt="" style="width: 44px; height: 44px; border-radius: 50%; display: block">
+        <span style="display: flex; align-items: baseline; gap: 7px; white-space: nowrap"><span style="font-size: 19px; font-weight: 900; letter-spacing: -0.02em; color: #8CCBF0">TDB Food</span><span class="hideSm" style="font-size: 15px; font-weight: 600; color: #8E969F">| Meat &amp; More</span></span>
+      </a>
+      <div class="navDesk" style="gap: 26px; font-size: 14px; font-weight: 500; align-items: center">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="6">
+          <a class="navlink" href="{{n.href}}" aria-current="{{n.cur}}" style="{{n.style}}">{{n.label}}</a>
+        </sc-for>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px">
+        <div style="position: relative">
+          <button type="button" onClick="{{toggleLang}}" aria-expanded="{{langOpenAttr}}" aria-label="{{t.langLabel}}" style="min-height: 44px; padding: 0 12px; display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path></svg>
+            {{langCode}}
+          </button>
+          <sc-if value="{{langOpen}}" hint-placeholder-val="{{false}}">
+            <div class="menuIn" style="position: absolute; right: 0; top: 52px; min-width: 170px; padding: 6px; border-radius: 18px; background: #11161C; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: flex; flex-direction: column">
+              <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+                <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.style}}">{{l.label}}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+        <a class="cta navDesk" href="kontakt.html" style="align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 14px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+        <button class="navMob" type="button" onClick="{{toggleMenu}}" aria-expanded="{{menuOpenAttr}}" aria-label="{{t.menu}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: #EEF2F5; cursor: pointer; align-items: center; justify-content: center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">
+      <div class="menuIn" style="border-top: 1px solid rgba(255,255,255,0.08); padding: 12px 20px 24px; display: flex; flex-direction: column; background: rgba(7,9,12,0.96)">
+        <sc-for list="{{navItems}}" as="n" hint-placeholder-count="6">
+          <a href="{{n.href}}" onClick="{{closeMenu}}" style="{{n.mobStyle}}">{{n.label}}</a>
+        </sc-for>
+        <a class="cta" href="kontakt.html" style="margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #8CCBF0; color: #07090C; font-size: 17px; font-weight: 700; text-decoration: none">{{t.navCta}}</a>
+      </div>
+    </sc-if>
+  </header>
+
+  <!-- ===== SEITENKOPF ===== -->
+  <section style="position: relative; padding: 170px 24px 60px; overflow: hidden">
+    <div aria-hidden="true" style="position: absolute; left: 50%; top: 30%; width: 1100px; height: 1100px; transform: translate(-50%,-50%); border-radius: 50%; background: radial-gradient(circle, rgba(140,203,240,0.12) 0%, rgba(7,9,12,0) 62%)"></div>
+    <div style="position: relative; max-width: 1240px; margin: 0 auto">
+      <nav aria-label="Breadcrumb" class="fadeUp" style="display: flex; gap: 8px; font-size: 14px; color: #8E969F"><a class="navlink" href="index.html">{{t.navStart}}</a><span aria-hidden="true">/</span><span style="color: #EEF2F5">{{t.navAbout}}</span></nav>
+      <h1 style="margin: 28px 0 0; font-size: clamp(48px, 8.4vw, 130px); line-height: 0.98; letter-spacing: -0.055em; font-weight: 900; perspective: 900px; padding-bottom: 0.06em">
+        <span class="word" style="animation-delay: .1s">{{t.hA}}</span><br>
+        <span class="word" style="animation-delay: .25s; color: #8CCBF0">{{t.hB}}</span>
+      </h1>
+      <p class="fadeUp" style="margin: 26px 0 0; max-width: 640px; font-size: clamp(18px, 2vw, 22px); line-height: 1.5; color: #A7AFB8; animation-delay: .45s">{{t.hSub}}</p>
+    </div>
+  </section>
+
+  <!-- ===== FAKTEN ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 40px">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0; border-top: 1px solid rgba(255,255,255,0.1)">
+      <sc-for list="{{facts}}" as="f" hint-placeholder-count="4">
+        <div class="reveal" style="padding: 32px 24px 32px 0; border-bottom: 1px solid rgba(255,255,255,0.1)">
+          <p style="margin: 0; font-size: clamp(56px, 6vw, 88px); font-weight: 900; letter-spacing: -0.05em; line-height: 1; color: #8CCBF0">{{f.v}}</p>
+          <p style="margin: 12px 0 0; font-size: 17px; line-height: 1.45; color: #A7AFB8">{{f.l}}</p>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ===== STAPELKARTEN ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 100px 24px 60px">
+    <p class="reveal" style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.whyEyebrow}}</p>
+    <h2 class="reveal" style="margin: 0 0 64px; font-size: clamp(44px, 6.5vw, 96px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.08em">{{t.whyA}}</h2>
+
+    <div style="position: sticky; top: 96px; margin-bottom: 36vh">
+      <div style="min-height: 460px; border-radius: 36px; background: #0E1318; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 -20px 60px rgba(0,0,0,0.5); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.c1e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c1a}}<br><span style="color: #8E969F">{{t.c1b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.c1p}}</p>
+        </div>
+        <div aria-hidden="true" style="flex: 0 0 auto; width: 200px; height: 200px; border-radius: 50%; border: 2px solid #8CCBF0; display: flex; align-items: center; justify-content: center; font-size: 110px; font-weight: 900; color: #8CCBF0; margin: 0 auto">€</div>
+      </div>
+    </div>
+
+    <div style="position: sticky; top: 120px; margin-bottom: 36vh">
+      <div style="min-height: 460px; border-radius: 36px; background: #121921; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 -20px 60px rgba(0,0,0,0.55); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.c2e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c2a}}<br><span style="color: #8CCBF0">{{t.c2b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.c2p}}</p>
+        </div>
+        <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1" aria-hidden="true" style="flex: 0 0 auto; margin: 0 auto"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>
+      </div>
+    </div>
+
+    <div style="position: sticky; top: 144px; margin-bottom: 8vh">
+      <div style="min-height: 460px; border-radius: 36px; background: #8CCBF0; color: #07090C; box-shadow: 0 -20px 60px rgba(0,0,0,0.6); padding: clamp(28px, 5vw, 64px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between">
+        <div style="flex: 1 1 380px; max-width: 640px">
+          <p style="margin: 0 0 16px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #1E3A4D">{{t.c3e}}</p>
+          <h3 style="margin: 0; font-size: clamp(44px, 6vw, 88px); line-height: 1; letter-spacing: -0.05em; font-weight: 900">{{t.c3a}}<br><span style="color: #1E3A4D">{{t.c3b}}</span></h3>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: #1E3A4D">{{t.c3p}}</p>
+        </div>
+        <div style="flex: 0 1 360px; height: 80px; overflow: hidden">
+          <div class="ticker" style="display: flex; flex-direction: column; font-size: clamp(48px, 6vw, 68px); font-weight: 900; letter-spacing: -0.04em; color: #07090C; line-height: 80px">
+            <span>Deutsch.</span><span>English.</span><span>Kurdî.</span><span>Türkçe.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LAGER & FAHRZEUGE ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 60px">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px">
+      <sc-for list="{{places}}" as="p" hint-placeholder-count="2">
+        <figure class="reveal" style="margin: 0">
+          <sc-if value="{{p.img}}" hint-placeholder-val="{{false}}">
+            <img src="{{p.img}}" alt="{{p.alt}}" loading="lazy" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 55% 60%; border-radius: 32px; border: 1px solid rgba(255,255,255,0.07)">
+          </sc-if>
+          <sc-if value="{{p.noImg}}" hint-placeholder-val="{{true}}">
+          <div class="ph" role="img" aria-label="{{p.ph}}" style="aspect-ratio: 4 / 3; border-radius: 32px; border: 1px solid rgba(255,255,255,0.07); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.4" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2.5l1.5-2h6l1.5 2H19a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #A7AFB8">{{p.ph}}</span>
+          </div>
+          </sc-if>
+          <figcaption style="margin-top: 20px">
+            <h3 style="margin: 0; font-size: 28px; letter-spacing: -0.03em">{{p.t}}</h3>
+            <p style="margin: 8px 0 0; font-size: 17px; line-height: 1.5; color: #A7AFB8">{{p.p}}</p>
+          </figcaption>
+        </figure>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ===== KUNDEN ===== -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 100px 24px 140px">
+    <p class="reveal" style="margin: 0 0 14px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: #8CCBF0">{{t.trustEyebrow}}</p>
+    <h2 class="reveal" style="margin: 0; font-size: clamp(40px, 6.5vw, 100px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.08em">{{t.trustA}}<br><span style="color: #8CCBF0">{{t.trustB}}</span></h2>
+    <p class="reveal" style="margin: 24px 0 56px; max-width: 620px; font-size: 19px; line-height: 1.55; color: #A7AFB8">{{t.trustP}}</p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px">
+      <sc-for list="{{logos}}" as="lg" hint-placeholder-count="8">
+        <div class="flip3d" style="flex: 0 1 calc((100% - 64px) / 5); min-width: 150px">
+          <sc-if value="{{lg.img}}" hint-placeholder-val="{{false}}">
+            <div class="card" role="img" aria-label="{{lg.label}}" style="border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); background: #0D1116; aspect-ratio: 3 / 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 14px">
+              <img src="{{lg.img}}" alt="" loading="lazy" style="height: 62%; width: auto; aspect-ratio: 1 / 1; object-fit: contain">
+              <span style="font-size: 13px; font-weight: 600; color: #E9EDF1; text-align: center">{{lg.label}}</span>
+            </div>
+          </sc-if>
+          <sc-if value="{{lg.noImg}}" hint-placeholder-val="{{true}}">
+          <div class="card ph" role="img" aria-label="{{lg.label}}" style="border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); aspect-ratio: 3 / 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8CCBF0" stroke-width="1.5" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9"></path><path d="M3 9h18v11H3z"></path><path d="M9 20v-6h6v6"></path></svg>
+            <span style="font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A7AFB8">{{lg.label}}</span>
+          </div>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section style="padding: 0 24px 140px">
+    <div class="reveal" style="max-width: 1240px; margin: 0 auto; border-radius: 40px; background: #8CCBF0; color: #07090C; padding: clamp(36px, 6vw, 80px); display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: space-between">
+      <h2 style="margin: 0; font-size: clamp(36px, 5vw, 72px); line-height: 1; letter-spacing: -0.05em; font-weight: 900; padding-bottom: 0.06em">{{t.ctaA}}<br>{{t.ctaB}}</h2>
+      <a class="cta" href="kontakt.html" style="display: inline-flex; align-items: center; min-height: 58px; padding: 0 32px; border-radius: 999px; background: #07090C; color: #EEF2F5; font-size: 18px; font-weight: 700; text-decoration: none">{{t.ctaBtn}}</a>
+    </div>
+  </section>
+
+  <a class="fab" href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="{{t.fab}}" style="position: fixed; right: 20px; bottom: 20px; z-index: 70; width: 64px; height: 64px; border-radius: 50%; background: #25D366; color: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 14px 40px rgba(0,0,0,0.5)">
+    <span class="fabPing" aria-hidden="true" style="position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25D366"></span>
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg>
+  </a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background: #040507; border-top: 1px solid rgba(255,255,255,0.07); padding: 80px 24px 32px">
+    <div style="max-width: 1240px; margin: 0 auto">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 40px">
+        <div style="display: flex; flex-direction: column; gap: 16px">
+          <a href="index.html" aria-label="TDB Food | Meat &amp; More" style="display: block; width: 96px; height: 96px"><img src="assets/logo.svg" alt="TDB Food | Meat &amp; More" style="width: 96px; height: 96px; border-radius: 50%; display: block"></a>
+          <span style="font-size: 18px; font-weight: 800; letter-spacing: -0.01em"><span style="color: #8CCBF0">TDB Food</span> <span style="color: #8E969F">| Meat &amp; More</span></span>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #A7AFB8">{{t.footTag}}</p>
+          <div style="display: flex; gap: 10px">
+            <a href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener" aria-label="Instagram @tdb_food" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <svg width="34" height="34" viewBox="0 0 56 56" aria-hidden="true"><defs><radialGradient id="igB" cx="0.3" cy="1.07" r="1.2"><stop offset="0" stop-color="#FDF497"></stop><stop offset="0.08" stop-color="#FDF497"></stop><stop offset="0.45" stop-color="#FD5949"></stop><stop offset="0.6" stop-color="#D6249F"></stop><stop offset="0.9" stop-color="#285AEB"></stop></radialGradient></defs><rect width="56" height="56" rx="15" fill="url(#igB)"></rect><rect x="12" y="12" width="32" height="32" rx="9.5" fill="none" stroke="#fff" stroke-width="3.6"></rect><circle cx="28" cy="28" r="7.6" fill="none" stroke="#fff" stroke-width="3.6"></circle><circle cx="37.4" cy="18.6" r="2.3" fill="#fff"></circle></svg>
+            </a>
+            <a href="https://wa.me/4917624115839" target="_blank" rel="noopener" aria-label="WhatsApp" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+              <span style="width: 34px; height: 34px; border-radius: 9px; background: #25D366; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"></path></svg></span>
+            </a>
+          </div>
+        </div>
+        <nav aria-label="{{t.colSort}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colSort}}</span>
+          <sc-for list="{{footCats}}" as="c" hint-placeholder-count="6"><a class="navlink" href="sortiment.html">{{c}}</a></sc-for>
+        </nav>
+        <nav aria-label="{{t.colCo}}" style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colCo}}</span>
+          <a class="navlink" href="ueber-uns.html">{{t.navAbout}}</a>
+          <a class="navlink" href="halal.html">{{t.navHalal}}</a>
+          <a class="navlink" href="liefergebiet.html">{{t.navArea}}</a>
+          <a class="navlink" href="kontakt.html">{{t.navFaq}}</a>
+          <a class="navlink" href="https://www.instagram.com/tdb_food" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; color: #A7AFB8">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #EEF2F5; margin-bottom: 4px">{{t.colContact}}</span>
+          <span>TDB GmbH<br>Marconistraße 34<br>50769 Köln</span>
+          <a class="navlink" href="tel:+4917624115839">+49 176 24115839</a>
+          <a class="navlink" href="mailto:info@tdb-food.de">info@tdb-food.de</a>
+          <a class="navlink" href="https://wa.me/4917624115839" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div style="margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; font-size: 14px; color: #8E969F">
+        <span>{{t.rights}}</span>
+        <div style="display: flex; gap: 22px; flex-wrap: wrap; align-items: center">
+          <a class="navlink" href="impressum.html">{{t.impressum}}</a>
+          <a class="navlink" href="datenschutz.html">{{t.datenschutz}}</a>
+          <span aria-hidden="true" style="width: 1px; height: 16px; background: rgba(255,255,255,0.15)"></span>
+          <sc-for list="{{langs}}" as="l" hint-placeholder-count="4">
+            <button type="button" onClick="{{l.pick}}" aria-pressed="{{l.current}}" style="{{l.footStyle}}">{{l.code}}</button>
+          </sc-for>
+          <a href="#" aria-label="{{t.toTop}}" style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.18); display: flex; align-items: center; justify-content: center; color: #EEF2F5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</template>
+<div id="root"></div>
+<script src="assets/runtime.js"></script>
+<script>
+
+var COMMON = {
+  de: { code: "DE", label: "Deutsch", langLabel: "Sprache wählen", menu: "Menü", toTop: "Nach oben", navStart: "Start", navSort: "Sortiment", navHalal: "Halal", navArea: "Liefergebiet", navAbout: "Über uns", navContact: "Kontakt", navFaq: "FAQ", navCta: "Anfragen", colSort: "Sortiment", colCo: "Unternehmen", colContact: "Kontakt", footTag: "Fleischgroßhandel für Gastronomie und Handel im Rheinland. Alles halal geschlachtet.", rights: "© 2026 TDB GmbH. Alle Rechte vorbehalten.", impressum: "Impressum", datenschutz: "Datenschutz", agb: "AGB", fab: "Per WhatsApp schreiben", ctaA: "Bereit für einen Lieferanten,", ctaB: "der liefert?", ctaBtn: "Jetzt anfragen", cats: ["Hähnchen", "Rind & Jungbulle", "Kalb", "Lamm", "Pute", "Eier"] },
+  en: { code: "EN", label: "English", langLabel: "Choose language", menu: "Menu", toTop: "Back to top", navStart: "Home", navSort: "Products", navHalal: "Halal", navArea: "Delivery area", navAbout: "About us", navContact: "Contact", navFaq: "FAQ", navCta: "Enquire", colSort: "Products", colCo: "Company", colContact: "Contact", footTag: "Meat wholesale for restaurants and retailers in the Rhineland. All halal slaughtered.", rights: "© 2026 TDB GmbH. All rights reserved.", impressum: "Legal notice", datenschutz: "Privacy policy", agb: "Terms", fab: "Message us on WhatsApp", ctaA: "Ready for a supplier", ctaB: "who delivers?", ctaBtn: "Enquire now", cats: ["Chicken", "Beef & young bull", "Veal", "Lamb", "Turkey", "Eggs"] },
+  ku: { code: "KU", label: "Kurdî", langLabel: "Ziman hilbijêre", menu: "Menû", toTop: "Vegere jor", navStart: "Destpêk", navSort: "Berhem", navHalal: "Helal", navArea: "Herêma radestkirinê", navAbout: "Derbarê me", navContact: "Têkilî", navFaq: "Pirs", navCta: "Bipirse", colSort: "Berhem", colCo: "Şirket", colContact: "Têkilî", footTag: "Toptanfiroşiya goşt ji bo xwaringeh û bazirganiyê li herêma Rheinê. Hemû helal serjêkirî.", rights: "© 2026 TDB GmbH. Hemû maf parastî ne.", impressum: "Impressum", datenschutz: "Parastina daneyan", agb: "Merc", fab: "Bi WhatsAppê binivîse", ctaA: "Ji bo dabînkerekî", ctaB: "ku radest dike amade yî?", ctaBtn: "Niha bipirse", cats: ["Mirîşk", "Dewar & gayê ciwan", "Golik", "Berx", "Elok", "Hêk"] },
+  tr: { code: "TR", label: "Türkçe", langLabel: "Dil seç", menu: "Menü", toTop: "Yukarı çık", navStart: "Ana sayfa", navSort: "Ürünler", navHalal: "Helal", navArea: "Teslimat bölgesi", navAbout: "Hakkımızda", navContact: "İletişim", navFaq: "SSS", navCta: "Teklif al", colSort: "Ürünler", colCo: "Şirket", colContact: "İletişim", footTag: "Ren bölgesinde gastronomi ve ticaret için et toptancısı. Tamamı helal kesim.", rights: "© 2026 TDB GmbH. Tüm hakları saklıdır.", impressum: "Künye", datenschutz: "Gizlilik politikası", agb: "Genel şartlar", fab: "WhatsApp ile yaz", ctaA: "Teslim eden bir", ctaB: "tedarikçiye hazır mısın?", ctaBtn: "Şimdi teklif al", cats: ["Tavuk", "Sığır & genç boğa", "Dana", "Kuzu", "Hindi", "Yumurta"] }
+};
+var PAGE = {
+  de: {
+    hA: "Junges Unternehmen.", hB: "Jahrelange Erfahrung.",
+    hSub: "TDB Food | Meat & More ist ein Fleischgroßhandel aus Köln. Neu am Markt – aber mit einem Team, das die Branche seit Jahren kennt.",
+    teamPh: "Teamfoto folgt",
+    facts: [["18 Uhr", "Bestellschluss für die Lieferung am Folgetag"], ["9", "Städte im Liefergebiet"], ["4", "Sprachen im Team"], ["100 %", "halal geschlachtet"]],
+    whyEyebrow: "Warum TDB", whyA: "Darauf kannst du bauen.",
+    c1e: "01 · Preis", c1a: "Gute Preise.", c1b: "Ohne Sternchen.", c1p: "Du bekommst den Preis, den wir nennen. Keine versteckten Zuschläge, keine Überraschung auf der Rechnung.",
+    c2e: "02 · Verlässlichkeit", c2a: "Wir lassen", c2b: "niemanden im Stich.", c2p: "Wenn am Samstagabend das Hähnchen knapp wird, landest du nicht in einer Warteschleife. Du schreibst uns – und wir finden eine Lösung.",
+    c3e: "03 · Team", c3a: "Junges Unternehmen.", c3b: "Jahrelange Erfahrung.", c3p: "TDB ist neu am Markt, unser Team kennt die Branche seit Jahren. Wir beraten dich in deiner Sprache:",
+    places: [["Unser Lager in Köln", "Marconistraße 34 – von hier starten jeden Morgen unsere Touren.", "Foto folgt · Lager"], ["Unsere Kühlfahrzeuge", "Mehrere Kühlfahrzeuge, damit die Kühlkette bis zu dir hält.", "Foto folgt · Kühlfahrzeug"]],
+    trustEyebrow: "Unsere Kunden", trustA: "Diese Kunden", trustB: "vertrauen uns.", trustP: "Restaurants, Imbisse, Cafés und Supermärkte im ganzen Rheinland setzen auf uns.", logo: "Kundenlogo"
+  },
+  en: {
+    hA: "A young company.", hB: "Years of experience.",
+    hSub: "TDB Food | Meat & More is a meat wholesaler from Cologne. New to the market – with a team that has known the trade for years.",
+    teamPh: "Team photo coming soon",
+    facts: [["6 pm", "Order deadline for next-day delivery"], ["9", "Cities in our delivery area"], ["4", "Languages in our team"], ["100 %", "halal slaughtered"]],
+    whyEyebrow: "Why TDB", whyA: "What you can count on.",
+    c1e: "01 · Price", c1a: "Fair prices.", c1b: "No small print.", c1p: "You pay the price we quote. No hidden surcharges, no surprises on the invoice.",
+    c2e: "02 · Reliability", c2a: "We never", c2b: "leave you hanging.", c2p: "When chicken runs low on a Saturday night, you won't end up in a phone queue. You message us – and we find a solution.",
+    c3e: "03 · Team", c3a: "A young company.", c3b: "Years of experience.", c3p: "TDB is new to the market, but our team has known the trade for years. We advise you in your language:",
+    places: [["Our warehouse in Cologne", "Marconistraße 34 – our routes start here every morning.", "Photo coming soon · warehouse"], ["Our refrigerated trucks", "Several refrigerated trucks keep the cold chain intact all the way to you.", "Photo coming soon · truck"]],
+    trustEyebrow: "Our customers", trustA: "These customers", trustB: "trust us.", trustP: "Restaurants, takeaways, cafés and supermarkets across the Rhineland rely on us.", logo: "Customer logo"
+  },
+  ku: {
+    hA: "Şirketek ciwan.", hB: "Salên ezmûnê.",
+    hSub: "TDB Food | Meat & More toptanfiroşekî goşt e ji Kölnê. Li bazarê nû – lê bi tîmeke ku bi salan e sektorê nas dike.",
+    teamPh: "Wêneya tîmê nêzîk e",
+    facts: [["18:00", "Dawiya sîparîşê ji bo radestkirina roja din"], ["9", "Bajar di herêma radestkirinê de"], ["4", "Ziman di tîma me de"], ["%100", "helal serjêkirî"]],
+    whyEyebrow: "Çima TDB", whyA: "Tu dikarî pişta xwe bidî me.",
+    c1e: "01 · Biha", c1a: "Bihayên baş.", c1b: "Bê şertên veşartî.", c1p: "Tu wê bihayê didî ku em dibêjin. Bê zêdebihayên veşartî, bê surprîz li ser fatûreyê.",
+    c2e: "02 · Pêbawerî", c2a: "Em tu kesî", c2b: "bi tenê nahêlin.", c2p: "Gava şemiyê êvarê mirîşk kêm dibe, tu di rêza bendê de namînî. Tu ji me re dinivîsî – û em çareseriyekê dibînin.",
+    c3e: "03 · Tîm", c3a: "Şirketek ciwan.", c3b: "Salên ezmûnê.", c3p: "TDB li bazarê nû ye, lê tîma me bi salan e sektorê nas dike. Em bi zimanê te şîretan didin:",
+    places: [["Depoya me li Kölnê", "Marconistraße 34 – her sibe rêwîtiyên me ji vir dest pê dikin.", "Wêne nêzîk e · depo"], ["Wesayîtên me yên sar", "Çend wesayîtên sar, da ku zincîra sar heta te bidome.", "Wêne nêzîk e · wesayît"]],
+    trustEyebrow: "Xerîdarên me", trustA: "Ev xerîdar", trustB: "bi me bawer dikin.", trustP: "Xwaringeh, firoşgehên xwarinê, kafe û market li seranserê herêma Rheinê pişta xwe didin me.", logo: "Logoya xerîdar"
+  },
+  tr: {
+    hA: "Genç bir şirket.", hB: "Yılların tecrübesi.",
+    hSub: "TDB Food | Meat & More, Köln'den bir et toptancısıdır. Pazarda yeni – ama sektörü yıllardır tanıyan bir ekiple.",
+    teamPh: "Ekip fotoğrafı yakında",
+    facts: [["18:00", "Ertesi gün teslimat için son sipariş saati"], ["9", "Teslimat bölgesindeki şehir"], ["4", "Ekibimizde konuşulan dil"], ["%100", "helal kesim"]],
+    whyEyebrow: "Neden TDB", whyA: "Güvenebileceğin şeyler.",
+    c1e: "01 · Fiyat", c1a: "İyi fiyatlar.", c1b: "Gizli şart yok.", c1p: "Söylediğimiz fiyatı ödersin. Gizli ek ücret yok, faturada sürpriz yok.",
+    c2e: "02 · Güvenilirlik", c2a: "Kimseyi", c2b: "yarı yolda bırakmayız.", c2p: "Cumartesi akşamı tavuk azaldığında bekleme hattında kalmazsın. Bize yazarsın – biz de bir çözüm buluruz.",
+    c3e: "03 · Ekip", c3a: "Genç bir şirket.", c3b: "Yılların tecrübesi.", c3p: "TDB pazarda yeni, ama ekibimiz sektörü yıllardır tanıyor. Seni kendi dilinde bilgilendiriyoruz:",
+    places: [["Köln'deki depomuz", "Marconistraße 34 – turlarımız her sabah buradan başlıyor.", "Fotoğraf yakında · depo"], ["Soğutmalı araçlarımız", "Birden fazla soğutmalı araç, soğuk zincir sana kadar kesintisiz.", "Fotoğraf yakında · araç"]],
+    trustEyebrow: "Müşterilerimiz", trustA: "Bu müşteriler", trustB: "bize güveniyor.", trustP: "Ren bölgesindeki restoranlar, büfeler, kafeler ve marketler bize güveniyor.", logo: "Müşteri logosu"
+  }
+};
+var PAGE_ID = "about";
+
+var CUSTOMERS = [
+  { name: "NaiNai Bao Köln", img: "assets/kunde-nainai-bao.png" },
+  { name: "Dao Dao Mian Köln", img: "assets/kunde-daodao-mian.png" },
+  { name: "Holi Köln · 2 Restaurants", img: "assets/kunde-holi.png" },
+  { name: "Ganesha Indian Restaurant", img: "assets/kunde-ganesha.png" },
+  { name: "Swaad Indian Cuisine", img: "assets/kunde-swaad.png" },
+  { name: "JJ Chicken · Korean Fried Chicken", img: "assets/kunde-jj-chicken.png" },
+  { name: "Imbiss Shukran", img: "assets/kunde-shukran.png" },
+  { name: "Tandır Restaurant", img: "assets/kunde-tandir.png" },
+  { name: "Tiba Supermarkt · 3 Filialen in Mönchengladbach", img: "assets/kunde-tiba.png" },
+  { name: "Afandi Imbiss Köln", img: "assets/kunde-afandi.png" }
+];
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    var saved = null;
+    try { saved = window.localStorage.getItem("tdb-lang"); } catch (e) {}
+    this.state = { lang: (saved && COMMON[saved]) ? saved : "de", langOpen: false, menuOpen: false };
+  }
+  shell() {
+    var self = this;
+    var lang = this.state.lang;
+    var t = Object.assign({}, COMMON[lang], PAGE[lang]);
+    var items = [["index.html", t.navStart, "start"], ["sortiment.html", t.navSort, "sort"], ["halal.html", t.navHalal, "halal"], ["ueber-uns.html", t.navAbout, "about"], ["liefergebiet.html", t.navArea, "area"], ["kontakt.html", t.navContact, "contact"]];
+    var navItems = items.map(function (it) {
+      var on = it[2] === PAGE_ID;
+      return {
+        href: it[0], label: it[1], cur: on ? "page" : "false",
+        style: on ? "color: #8CCBF0; font-weight: 700" : "",
+        mobStyle: "min-height: 52px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); text-decoration: none; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: " + (on ? "#8CCBF0" : "#EEF2F5")
+      };
+    });
+    var langs = ["de", "en", "ku", "tr"].map(function (c) {
+      var on = c === lang;
+      return {
+        code: COMMON[c].code, label: COMMON[c].label, current: on ? "true" : "false",
+        pick: function () { try { window.localStorage.setItem("tdb-lang", c); } catch (e) {} self.setState({ lang: c, langOpen: false, menuOpen: false }); },
+        style: "min-height: 44px; padding: 0 14px; border: 0; border-radius: 12px; text-align: left; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; background: " + (on ? "rgba(140,203,240,0.16)" : "transparent") + "; color: " + (on ? "#8CCBF0" : "#EEF2F5"),
+        footStyle: "min-width: 44px; min-height: 44px; border: 0; background: transparent; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; color: " + (on ? "#8CCBF0" : "#8E969F")
+      };
+    });
+    return {
+      t: t, lang: lang, langCode: t.code, navItems: navItems, langs: langs, footCats: t.cats,
+      langOpen: this.state.langOpen, langOpenAttr: this.state.langOpen ? "true" : "false",
+      menuOpen: this.state.menuOpen, menuOpenAttr: this.state.menuOpen ? "true" : "false",
+      toggleLang: function () { self.setState({ langOpen: !self.state.langOpen }); },
+      toggleMenu: function () { self.setState({ menuOpen: !self.state.menuOpen, langOpen: false }); },
+      closeMenu: function () { self.setState({ menuOpen: false }); }
+    };
+  }
+  renderVals() {
+    var v = this.shell();
+    var t = v.t;
+    v.facts = t.facts.map(function (f) { return { v: f[0], l: f[1] }; });
+    var placeImgs = ["assets/lager.jpg", "assets/kuehlfahrzeug.jpg"];
+    v.places = t.places.map(function (p, i) { return { t: p[0], p: p[1], ph: p[2], img: placeImgs[i], noImg: !placeImgs[i], alt: p[0] + " – TDB Food | Meat & More" }; });
+    v.logos = CUSTOMERS.map(function (c) { return { label: c.name, img: c.img, noImg: false }; });
+    return v;
+  }
+}
+
+DC.mount(Component);
+</script>
+<script src="assets/hinweis.js" defer></script>
+</body>
+</html>

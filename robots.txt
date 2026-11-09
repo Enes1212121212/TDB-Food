@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tdb-food.de/sitemap.xml

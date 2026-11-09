@@ -1,0 +1,36 @@
+TDB Food | Meat & More – Webseite
+=================================
+
+SO KOMMT DIE SEITE ONLINE
+1. Beim Domain-/Hosting-Anbieter (z. B. IONOS, Strato, All-Inkl) einloggen.
+2. Den Webspace für tdb-food.de öffnen (Dateimanager oder FTP, z. B. mit FileZilla).
+3. ALLE Dateien und den Ordner "assets" aus diesem ZIP in das Hauptverzeichnis
+   hochladen (dorthin, wo die Startseite liegen soll). Die Datei "index.html"
+   muss direkt im Hauptverzeichnis liegen, nicht in einem Unterordner.
+4. SSL/HTTPS beim Anbieter aktivieren (meist ein Schalter "SSL-Zertifikat").
+5. https://tdb-food.de aufrufen – fertig.
+
+VOR DEM LIVEGANG
+- Impressum und Datenschutzerklärung sind ausgefüllt. Am besten einmal kurz
+  von einem Anwalt oder der IHK prüfen lassen.
+- Mit dem Hosting-Anbieter einen Auftragsverarbeitungsvertrag (AVV) abschließen –
+  bei den meisten Anbietern ein Klick im Kundenbereich.
+
+GUT ZU WISSEN
+- Keine Cookies, kein Tracking, keine Google Fonts: Die Schriften liegen
+  im Ordner assets/fonts auf eurem eigenen Server.
+- robots.txt und sitemap.xml sind für Google vorbereitet. Nach dem Livegang
+  die Seite in der Google Search Console anmelden und die Sitemap einreichen.
+- Fotos, Logo-Original und Hero-Video kann Claude später austauschen –
+  danach einfach die geänderten Dateien erneut hochladen.
+
+DATEIEN
+index.html ........ Startseite
+sortiment.html .... Sortiment
+halal.html ........ Halal
+ueber-uns.html .... Über uns
+liefergebiet.html . Liefergebiet
+kontakt.html ...... Kontakt + FAQ
+impressum.html .... Impressum (bitte ausfüllen)
+datenschutz.html .. Datenschutz (bitte ausfüllen)
+assets/ ........... Logo, Bilder, Schriften, Programmcode
